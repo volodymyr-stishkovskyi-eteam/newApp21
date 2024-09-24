@@ -1,0 +1,1234 @@
+{
+  "title": "release_50",
+  "actions": [],
+  "displayName": null,
+  "description": null,
+  "position": 10,
+  "availabilityInLiveMode": true,
+  "styles": {
+    "hasBorder": false,
+    "pageWidth": "1027",
+    "background": "#ffffff",
+    "borderSize": "1",
+    "pageHeight": "768",
+    "borderColor": "#d4d4d4",
+    "hasBackground": true
+  },
+  "widgets": [
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 20,
+        "y": 520,
+        "order": 6,
+        "width": 173,
+        "height": 211
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "position3",
+      "cellStyles": {
+        "value": [
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""],
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "hasGrid": true,
+        "fontSize": "15",
+        "gridSize": "1",
+        "wordWrap": false,
+        "fontColor": "#222222",
+        "gridColor": "#CCCCCC",
+        "hasBorder": true,
+        "hasShadow": true,
+        "rowHeight": [30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30],
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "columnWidth": [173],
+        "showTooltip": true,
+        "borderRadius": "6",
+        "gridPosition": "both",
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "isAdjustToContent": true,
+        "verticalAlignment": "center"
+      },
+      "type": "TABLE",
+      "rawData": {
+        "value": [
+          ["Consulting"],
+          ["Maintenance"],
+          ["Other revenue"],
+          ["Sales revenue"],
+          ["Other op. income"],
+          ["Purchases"],
+          ["Material expenses"],
+          ["Personnal expenses"],
+          ["Amortization"],
+          ["Other op. expenses"],
+          ["Operating results\r"],
+          ["Investment income\r"],
+          ["Financial income, net\r"],
+          ["Result before tax\r"],
+          ["Income tax\r"],
+          ["Result after tax\r"],
+          ["Profit to other interests\r"],
+          ["Group result"]
+        ],
+        "viewType": "COLUMN"
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "release_50"
+      },
+      "actions": [
+        {
+          "code": "#position3",
+          "type": "TOOLTIPS"
+        }
+      ]
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "hasTabOrder": false,
+        "showSeconds": false,
+        "tabOrderName": "",
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 233,
+        "y": 520,
+        "order": 7,
+        "width": 120,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "menu1",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "fontTextAlign": "auto",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "MENU",
+      "rawData": {
+        "value": [
+          [null]
+        ],
+        "selected": [0],
+        "viewType": "MENU"
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "release_50"
+      },
+      "actions": [
+        {
+          "code": "#position3",
+          "type": "CONTENT"
+        }
+      ]
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "hasTabOrder": false,
+        "showSeconds": false,
+        "tabOrderName": "",
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 456,
+        "y": 542,
+        "order": 10,
+        "width": 116,
+        "height": 27
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "button1",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "fontColor": "#ffffff",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#787878",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": true,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "fontTextAlign": "auto",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "BUTTON",
+      "rawData": {
+        "value": [
+          [null]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "release_50"
+      },
+      "actions": [
+        {
+          "code": " CELLREF(#table2;2;2) = TODAY()\n CELLREF(#table2;1;2) = TODAY()\n CELLREF(#table2;1;1) = 1111\n CELLREF(#table2;2;1) = \"text\"  \n CELLREF(#table2;3;2) = true\n CELLREF(#table2;3;2) = false",
+          "type": "CLICK"
+        }
+      ]
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "hasTabOrder": false,
+        "showSeconds": false,
+        "tabOrderName": "",
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 452,
+        "y": 366,
+        "order": 12,
+        "width": 120,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "menu2",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "fontTextAlign": "auto",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "MENU",
+      "rawData": {
+        "value": [
+          [null]
+        ],
+        "selected": [0],
+        "viewType": "MENU",
+        "dataSourceOptions": {
+          "port": "",
+          "type": "SAP_MDX",
+          "token": "",
+          "dbName": "adventureWorks",
+          "driver": "NotSet",
+          "server": "172.21.72.21",
+          "endpoint": "",
+          "password": "",
+          "systemId": "100",
+          "username": "STUDENT051",
+          "reference": "release_50.table1",
+          "refreshToken": "",
+          "routerString": "/H/161.38.17.212",
+          "systemNumber": "00",
+          "authentication": "Basic",
+          "dbObjectOptions": [],
+          "connectionStatus": "DISCONNECTED",
+          "selectedDBEntities": {
+            "cube": "ACM Cmdty PnL Value Delta New Actv - Qry [2CIACMPNLNAVLC/2CCACMPNLDNAVALQ]",
+            "rows": [
+              {
+                "name": "Comp. Ctr Cmdty Qty [Measures].[ComparCmmdtyQuantityInTermUnit]",
+                "type": "MEASURE",
+                "sortBy": null
+              },
+              {
+                "name": "End Date of Period [2CHIXQMGGC3NYWC7NFVUF570LV6]    Week-Day [2CHIXQMGGC3NYWC7NFVUF570LV6   0WEEK_DAY]",
+                "type": "HIERARCHY",
+                "sortBy": null
+              }
+            ],
+            "table": "",
+            "schema": null,
+            "columns": [],
+            "topRows": 0,
+            "dbFilters": [],
+            "noAggregate": false,
+            "hierarchyNumLevels": null,
+            "hasTopRowsInEditMode": true
+          }
+        }
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "release_50"
+      },
+      "actions": [
+        {
+          "code": "GETDATA()",
+          "type": "CONTENT"
+        },
+        {
+          "code": "#table1",
+          "type": "CONNECTION"
+        }
+      ]
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "hasTabOrder": false,
+        "showSeconds": false,
+        "tabOrderName": "",
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 671,
+        "y": 271,
+        "order": 13,
+        "width": 90,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "button2",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "fontColor": "#ffffff",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#787878",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": true,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "fontTextAlign": "auto",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "BUTTON",
+      "rawData": {
+        "value": [
+          [null]
+        ],
+        "dataSourceOptions": {
+          "port": "",
+          "type": "SAP_MDX",
+          "token": "",
+          "dbName": "adventureWorks",
+          "driver": "NotSet",
+          "server": "172.21.72.21",
+          "endpoint": "",
+          "password": "",
+          "systemId": "100",
+          "username": "STUDENT051",
+          "reference": "release_50.menu2",
+          "refreshToken": "",
+          "routerString": "/H/161.38.17.212",
+          "systemNumber": "00",
+          "authentication": "Basic",
+          "dbObjectOptions": [],
+          "connectionStatus": "DISCONNECTED",
+          "selectedDBEntities": {
+            "cube": "ACM Cmdty PnL Value Delta New Actv - Qry [2CIACMPNLNAVLC/2CCACMPNLDNAVALQ]",
+            "rows": [
+              {
+                "name": "Comp. Ctr Cmdty Qty [Measures].[ComparCmmdtyQuantityInTermUnit]",
+                "type": "MEASURE",
+                "sortBy": null
+              },
+              {
+                "name": "End Date of Period [2CHIXQMGGC3NYWC7NFVUF570LV6]    Week-Day [2CHIXQMGGC3NYWC7NFVUF570LV6   0WEEK_DAY]",
+                "type": "HIERARCHY",
+                "sortBy": null
+              }
+            ],
+            "table": "",
+            "schema": null,
+            "columns": [],
+            "topRows": 0,
+            "dbFilters": [],
+            "noAggregate": false,
+            "hierarchyNumLevels": null,
+            "hasTopRowsInEditMode": true
+          }
+        }
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "release_50"
+      },
+      "actions": [
+        {
+          "code": "CALLURL()",
+          "type": "CONTENT"
+        },
+        {
+          "code": "#menu2",
+          "type": "CONNECTION"
+        }
+      ]
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "hasTabOrder": false,
+        "showSeconds": false,
+        "tabOrderName": "",
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 775,
+        "y": 148,
+        "order": 14,
+        "width": 150,
+        "height": 70
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "table3",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "hasGrid": true,
+        "fontSize": "15",
+        "gridSize": "1",
+        "wordWrap": false,
+        "fontColor": "#222222",
+        "gridColor": "#CCCCCC",
+        "hasBorder": true,
+        "hasShadow": true,
+        "rowHeight": [30],
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "columnWidth": [70],
+        "showTooltip": false,
+        "borderRadius": "6",
+        "gridPosition": "both",
+        "fontTextAlign": "auto",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "isAdjustToContent": true,
+        "verticalAlignment": "center"
+      },
+      "type": "TABLE",
+      "rawData": {
+        "value": [
+          [null]
+        ],
+        "viewType": "TABLE",
+        "dataSourceOptions": {
+          "port": "",
+          "type": "SAP_MDX",
+          "token": "",
+          "dbName": "adventureWorks",
+          "driver": "NotSet",
+          "server": "172.21.72.21",
+          "endpoint": "",
+          "password": "",
+          "systemId": "100",
+          "username": "STUDENT051",
+          "reference": "release_50.menu2",
+          "refreshToken": "",
+          "routerString": "/H/161.38.17.212",
+          "systemNumber": "00",
+          "authentication": "Basic",
+          "dbObjectOptions": [],
+          "connectionStatus": "DISCONNECTED",
+          "selectedDBEntities": {
+            "cube": "ACM Cmdty PnL Value Delta New Actv - Qry [2CIACMPNLNAVLC/2CCACMPNLDNAVALQ]",
+            "rows": [
+              {
+                "name": "Comp. Ctr Cmdty Qty [Measures].[ComparCmmdtyQuantityInTermUnit]",
+                "type": "MEASURE",
+                "sortBy": null
+              },
+              {
+                "name": "End Date of Period [2CHIXQMGGC3NYWC7NFVUF570LV6]    Week-Day [2CHIXQMGGC3NYWC7NFVUF570LV6   0WEEK_DAY]",
+                "type": "HIERARCHY",
+                "sortBy": null
+              }
+            ],
+            "table": "",
+            "schema": null,
+            "columns": [],
+            "topRows": 0,
+            "dbFilters": [],
+            "noAggregate": false,
+            "hierarchyNumLevels": null,
+            "hasTopRowsInEditMode": true
+          }
+        }
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "release_50"
+      },
+      "actions": [
+        {
+          "code": "GETDATA()",
+          "type": "CONTENT"
+        },
+        {
+          "code": "#menu2",
+          "type": "CONNECTION"
+        }
+      ]
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "hasTabOrder": false,
+        "showSeconds": false,
+        "tabOrderName": "",
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 456,
+        "y": 488,
+        "order": 15,
+        "width": 120,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "menu3",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "fontTextAlign": "auto",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "MENU",
+      "rawData": {
+        "value": [
+          [null]
+        ],
+        "selected": [0],
+        "viewType": "MENU"
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "release_50"
+      },
+      "actions": [
+        {
+          "code": "SEQUENCE(100;1)",
+          "type": "CONTENT"
+        }
+      ]
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "hasTabOrder": false,
+        "showSeconds": false,
+        "tabOrderName": "",
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 472,
+        "y": 473,
+        "order": 16,
+        "width": 555,
+        "height": 220
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "table2",
+      "cellStyles": {
+        "value": [
+          [0,0,0],
+          [0,0,0],
+          [0,0,0],
+          [0,0,0],
+          [0,0,0],
+          [0,0,0]
+        ],
+        "stylesMap": [
+          {
+            "fontSize": "15",
+            "fontColor": "#222222",
+            "hasBorder": true,
+            "background": "#ffffff",
+            "borderSize": "1",
+            "fontFamily": "Nunito",
+            "fontItalic": false,
+            "fontWeight": false,
+            "borderColor": "#d4d4d4",
+            "fontTextAlign": "auto",
+            "fontUnderline": false,
+            "hasBackground": true,
+            "borderPosition": ["top","right","bottom","left"],
+            "verticalAlignment": "center"
+          }
+        ]
+      },
+      "styles": {
+        "hasGrid": true,
+        "fontSize": "15",
+        "gridSize": "1",
+        "wordWrap": false,
+        "fontColor": "#222222",
+        "gridColor": "#CCCCCC",
+        "hasBorder": true,
+        "hasShadow": true,
+        "rowHeight": [30,30,30,30,30,30],
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "columnWidth": [116,240,194],
+        "showTooltip": false,
+        "borderRadius": "6",
+        "gridPosition": "both",
+        "fontTextAlign": "auto",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "isAdjustToContent": true,
+        "verticalAlignment": "center"
+      },
+      "type": "TABLE",
+      "rawData": {
+        "value": [
+          [1111,"06/27/2024","06/27/2024"],
+          ["text","06/27/2024",false],
+          [567,false,41242],
+          ["testss","!SYNTAX","text"],
+          ["",444,""],
+          ["","",""]
+        ],
+        "viewType": "TABLE"
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "release_50"
+      },
+      "actions": [
+        {
+          "code": "#table1",
+          "type": "STYLE"
+        }
+      ]
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "hasTabOrder": false,
+        "showSeconds": false,
+        "tabOrderName": "",
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 204,
+        "y": 592,
+        "order": 8,
+        "width": 259,
+        "height": 135
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "cell4",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "auto",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          ["With the cursor up and cursor down keys it is possible to highlight the previous or next entry in the list."]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "release_50"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "hasTabOrder": false,
+        "showSeconds": false,
+        "tabOrderName": "",
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 625,
+        "y": 55,
+        "order": 4,
+        "width": 150,
+        "height": 70
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "table1",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "hasGrid": true,
+        "fontSize": "15",
+        "gridSize": "1",
+        "wordWrap": false,
+        "fontColor": "#222222",
+        "gridColor": "#CCCCCC",
+        "hasBorder": true,
+        "hasShadow": true,
+        "rowHeight": [30],
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "columnWidth": [70],
+        "showTooltip": false,
+        "borderRadius": "6",
+        "gridPosition": "both",
+        "fontTextAlign": "auto",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "isAdjustToContent": true,
+        "verticalAlignment": "center"
+      },
+      "type": "TABLE",
+      "rawData": {
+        "value": [
+          [null]
+        ],
+        "viewType": "TABLE",
+        "dataSourceOptions": {
+          "port": "",
+          "type": "SAP_MDX",
+          "token": "",
+          "dbName": "adventureWorks",
+          "driver": "NotSet",
+          "server": "172.21.72.21",
+          "endpoint": "",
+          "password": "",
+          "systemId": "100",
+          "username": "STUDENT051",
+          "reference": "",
+          "refreshToken": "",
+          "routerString": "/H/161.38.17.212",
+          "systemNumber": "00",
+          "authentication": "Basic",
+          "dbObjectOptions": [],
+          "connectionStatus": "DISCONNECTED",
+          "selectedDBEntities": {
+            "cube": "ACM Cmdty PnL Value Delta New Actv - Qry [2CIACMPNLNAVLC/2CCACMPNLDNAVALQ]",
+            "rows": [
+              {
+                "name": "Comp. Ctr Cmdty Qty [Measures].[ComparCmmdtyQuantityInTermUnit]",
+                "type": "MEASURE",
+                "sortBy": null
+              }
+            ],
+            "table": "",
+            "schema": null,
+            "columns": [],
+            "topRows": 0,
+            "dbFilters": [],
+            "noAggregate": false,
+            "hierarchyNumLevels": null,
+            "hasTopRowsInEditMode": true
+          }
+        }
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "release_50"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "hasTabOrder": false,
+        "showSeconds": false,
+        "tabOrderName": "",
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 4,
+        "y": 200,
+        "order": 3,
+        "width": 578,
+        "height": 226
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "cell2",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "auto",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          ["SAP MDX Basic user auth windows keeps opening despite being dismissed \n\nSAP MDX connection with basic user auth can't be established from the first attempt\n\nScroll binding doesn't work in popup pages\n\nwith Ulvi - UPLOAD doesn't work with larger files\n\nPages not visible in Live Mode can be opened by URL - \n( but have problem with pdf - working on it )"]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "release_50"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "hasTabOrder": false,
+        "showSeconds": false,
+        "tabOrderName": "",
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 637,
+        "y": 11,
+        "order": 5,
+        "width": 201,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "cell3",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "auto",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          ["connection table"]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "release_50"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "hasTabOrder": false,
+        "showSeconds": false,
+        "tabOrderName": "",
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 10,
+        "y": 11,
+        "order": 2,
+        "width": 532,
+        "height": 137
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "cell1",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "auto",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "baseline"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          ["Enhanced keyboard navigation in menu widgets\n\n\"Automatic\" as horizontal alignment for widget and widget cell content\n\nCreate database widgets from a widget with database connection"]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "release_50"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "hasTabOrder": false,
+        "showSeconds": false,
+        "tabOrderName": "",
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 625,
+        "y": 419,
+        "order": 11,
+        "width": 377,
+        "height": 156
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "cell5",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "auto",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          ["Use cases\n\nDuring presentations. Currently the cell based alignment, e.g. for tables filled with database content, is an additional cumbersome step. \n\nDuring app creation. Here the alignment adjustment would be simplified or no longer required. "]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "release_50"
+      },
+      "actions": []
+    }
+  ],
+  "parentId": null
+}

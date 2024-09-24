@@ -1,0 +1,193 @@
+{
+  "title": "NEDYX_Sprint_82",
+  "actions": [],
+  "displayName": null,
+  "description": null,
+  "position": 4,
+  "availabilityInLiveMode": true,
+  "styles": {
+    "hasBorder": false,
+    "pageWidth": "1310",
+    "background": "#ffffff",
+    "borderSize": "1",
+    "pageHeight": "770",
+    "borderColor": "#d4d4d4",
+    "hasBackground": true
+  },
+  "widgets": [
+    {
+      "format": {},
+      "geometry": {
+        "x": 884,
+        "y": 145,
+        "order": 2,
+        "width": 216,
+        "height": 140
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "image1",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "hasBorder": false,
+        "hasShadow": false,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBackground": false,
+        "borderPosition": ["top","right","bottom","left"]
+      },
+      "type": "IMAGE",
+      "rawData": {
+        "value": [
+          ["806dfb93-0244-4e35-8103-4be2f1d43f60.jpeg"]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "NEDYX_Sprint_82"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "showSeconds": false,
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 101,
+        "y": 6,
+        "order": 1,
+        "width": 770,
+        "height": 279
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "cell1",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": true,
+        "hasShadow": true,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#181212",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "baseline"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          ["Undo returns main widget formula to all selected widgets after undo removed formulas from them\n\nAn app is not opened by an url if the user is logged out\n\nMore busy indicators on FE\n\nUPLOADFILE function is cancelled if used during screen sharing\n\nShow and switch duplicate menu widget entries\n\nScale images in image widgets and the My Apps screen so that they always completely visible\n\nAn error is shown when clicking a chart element"]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "NEDYX_Sprint_82"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "showSeconds": false,
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 101,
+        "y": 292,
+        "order": 3,
+        "width": 408,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "cell2",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          ["Tab order for widgets - in progress"]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "NEDYX_Sprint_82"
+      },
+      "actions": []
+    }
+  ],
+  "parentId": null
+}

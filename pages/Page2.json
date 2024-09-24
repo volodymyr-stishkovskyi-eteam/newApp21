@@ -1,0 +1,2081 @@
+{
+  "title": "Page2",
+  "actions": [],
+  "displayName": null,
+  "description": null,
+  "position": 1,
+  "availabilityInLiveMode": true,
+  "styles": {
+    "hasBorder": false,
+    "pageWidth": "2024",
+    "background": "#ffffff",
+    "borderSize": "1",
+    "pageHeight": "1768",
+    "borderColor": "#d4d4d4",
+    "hasBackground": true
+  },
+  "widgets": [
+    {
+      "format": {
+        "dateType": "DATE",
+        "showSeconds": false,
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 1026,
+        "y": 20,
+        "order": 25,
+        "width": 90,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "button1",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "fontColor": "#ffffff",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#787878",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": true,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "fontTextAlign": "center",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "BUTTON",
+      "rawData": {
+        "value": [
+          [null]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Page2"
+      },
+      "actions": [
+        {
+          "code": "IF(QUESTION(\"do you want List\"; \"save list\"; \"cancel\"; \"yes\";\"no\") == 3; CLICK(#button2))",
+          "type": "CLICK"
+        }
+      ]
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "showSeconds": false,
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 1181,
+        "y": 12,
+        "order": 26,
+        "width": 90,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "button2",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "fontColor": "#ffffff",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#787878",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": true,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "fontTextAlign": "center",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "BUTTON",
+      "rawData": {
+        "value": [
+          [null]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Page2"
+      },
+      "actions": [
+        {
+          "code": "#cell5 = #cell5 + 1",
+          "type": "CLICK"
+        }
+      ]
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "hasTabOrder": false,
+        "showSeconds": false,
+        "tabOrderName": "",
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 1012,
+        "y": 806,
+        "order": 28,
+        "width": 230,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "menu4",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "fontTextAlign": "auto",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "MENU",
+      "rawData": {
+        "value": [
+          [null]
+        ],
+        "selected": [0],
+        "viewType": "HIERARCHY_MENU"
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Page2"
+      },
+      "actions": [
+        {
+          "code": "#table4",
+          "type": "CONTENT"
+        }
+      ]
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 553,
+        "y": 20,
+        "order": 11,
+        "width": 80,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "menu2",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "MENU",
+      "rawData": {
+        "value": [
+          [null]
+        ],
+        "selected": [0],
+        "viewType": "MENU"
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Page2"
+      },
+      "actions": [
+        {
+          "code": "2018 + SEQUENCE(4;1)",
+          "type": "CONTENT"
+        },
+        {
+          "code": "CLICK(#GetData)",
+          "type": "SWITCH"
+        }
+      ]
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "showSeconds": false,
+        "showLocalTime": true,
+        "fractionDigits": 1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 648,
+        "y": 20,
+        "order": 10,
+        "width": 135,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "menu1",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": true,
+        "borderRadius": "6",
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "MENU",
+      "rawData": {
+        "value": [
+          [null]
+        ],
+        "selected": [0],
+        "viewType": "MENU"
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Page2"
+      },
+      "actions": [
+        {
+          "code": "CLICK(#GetData)",
+          "type": "SWITCH"
+        },
+        {
+          "code": "SEQUENCE(10; 1)",
+          "type": "CONTENT"
+        },
+        {
+          "code": "#table1",
+          "type": "TOOLTIPS"
+        }
+      ]
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "showSeconds": false,
+        "showLocalTime": true,
+        "fractionDigits": 1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 836,
+        "y": 19,
+        "order": 21,
+        "width": 120,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "menu3",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": true,
+        "borderRadius": "6",
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "MENU",
+      "rawData": {
+        "value": [
+          [null]
+        ],
+        "selected": [4],
+        "viewType": "MENU"
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Page2"
+      },
+      "actions": [
+        {
+          "code": "SEQUENCE(10;3)",
+          "type": "CONTENT"
+        },
+        {
+          "code": "EMPTY()",
+          "type": "TOOLTIPS"
+        }
+      ]
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "showSeconds": false,
+        "showLocalTime": true,
+        "fractionDigits": 0,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 47,
+        "y": 77,
+        "order": 13,
+        "width": 750,
+        "height": 476
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "chart2",
+      "cellStyles": {
+        "value": [
+          ["","","","","","","","","","","",""],
+          ["","","","","","","","","","","",""],
+          ["","","","","","","","","","","",""],
+          [0,0,0,0,0,0,0,0,0,0,0,0],
+          [1,1,1,1,1,1,1,1,1,1,1,1]
+        ],
+        "stylesMap": [
+          {
+            "fontSize": "14",
+            "bgPattern": "DIAGONAL_FORWARD",
+            "fontColor": "#000000",
+            "hasBorder": true,
+            "background": "#da7074",
+            "borderSize": "1",
+            "fontFamily": "Nunito",
+            "fontItalic": false,
+            "fontWeight": false,
+            "borderColor": "#bdbdbd",
+            "hasBgPattern": false,
+            "fontTextAlign": "center",
+            "fontUnderline": false,
+            "hasBackground": true,
+            "borderPosition": ["top","right","bottom","left"],
+            "verticalAlignment": "center"
+          },
+          {
+            "fontSize": "14",
+            "fontColor": "#222222",
+            "hasBorder": false,
+            "background": "#bdbdbd",
+            "borderSize": "1",
+            "fontFamily": "Nunito",
+            "fontItalic": true,
+            "fontWeight": false,
+            "borderColor": "#3d3d3d",
+            "fontTextAlign": "center",
+            "fontUnderline": false,
+            "hasBackground": true,
+            "borderPosition": ["top","right","bottom","left"],
+            "verticalAlignment": "center"
+          }
+        ]
+      },
+      "styles": {
+        "hasGrid": false,
+        "fontSize": "16",
+        "gridSize": "1",
+        "chartMaxY": null,
+        "chartMinY": null,
+        "chartType": "bubble",
+        "fontColor": "#242424",
+        "gridColor": "#CCCCCC",
+        "hasBorder": false,
+        "hasShadow": true,
+        "hideXAxis": false,
+        "hideYAxis": false,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Montserrat",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "chartLegend": false,
+        "chartOffset": 0,
+        "showTooltip": false,
+        "borderRadius": "6",
+        "chartOptions": null,
+        "chartStacked": true,
+        "gridPosition": "horizontal",
+        "chartLineType": "smooth",
+        "chartPosition": "center",
+        "displayLabels": true,
+        "fontUnderline": false,
+        "hasBackground": false,
+        "labelRotation": null,
+        "borderPosition": ["top","right","bottom","left"],
+        "chartAlignment": "center",
+        "chartLineStyle": "solid",
+        "chartPointSize": 4,
+        "chartSuggested": true,
+        "showDataInRows": true,
+        "chartColumnSize": 40,
+        "chartPointShape": "disc",
+        "chartHasZeroLine": true,
+        "chartTransparency": 0,
+        "isCenteredDataset": true,
+        "chartBarPercentage": 200,
+        "chartLineThickness": 4,
+        "chartZeroLineColor": "#787878",
+        "chartZeroLineWidth": 2,
+        "chartConnectionLine": false,
+        "chartLegendPosition": "right",
+        "showDataNameInFirstRow": false,
+        "chartConnectionLineColor": "#888888",
+        "chartConnectionLineWidth": 1
+      },
+      "type": "CHART",
+      "rawData": {
+        "value": [
+          [null]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Page2"
+      },
+      "actions": [
+        {
+          "code": "COMBINE(#months;#myData;#quarter;vertical)",
+          "type": "CONTENT"
+        },
+        {
+          "code": "#table2\n#table1",
+          "type": "CHART_LABELS"
+        },
+        {
+          "code": "COMBINE(EMPTY();EMPTY();EMPTY();\n      IF(\n          SEQUENCE(#months) > 9; #color3;\n          SEQUENCE(#months) > 6; #color4;\n          SEQUENCE(#months) > 3; #color5;\n          #color6\n      );\n    #color2;\n      vertical\n  )",
+          "type": "STYLE"
+        },
+        {
+          "code": "#table2",
+          "type": "TOOLTIPS"
+        }
+      ]
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 30,
+        "y": 665,
+        "order": 14,
+        "width": 640,
+        "height": 30
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "months",
+      "cellStyles": {
+        "value": [
+          ["","","","","","","","","","","",""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "hasGrid": true,
+        "fontSize": "15",
+        "gridSize": "1",
+        "wordWrap": false,
+        "fontColor": "#222222",
+        "gridColor": "#CCCCCC",
+        "hasBorder": true,
+        "hasShadow": true,
+        "rowHeight": [30],
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "columnWidth": [53,53,53,53,53,53,53,53,53,53,53,53,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70],
+        "showTooltip": false,
+        "borderRadius": "6",
+        "gridPosition": "both",
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "isAdjustToContent": true,
+        "verticalAlignment": "center"
+      },
+      "type": "TABLE",
+      "rawData": {
+        "value": [
+          [null]
+        ],
+        "viewType": "ROW"
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Page2"
+      },
+      "actions": [
+        {
+          "code": "#Data.months",
+          "type": "CONTENT"
+        }
+      ]
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 690,
+        "y": 600,
+        "order": 3,
+        "width": 90,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "GetData",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "fontColor": "#ffffff",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#787878",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": true,
+        "borderColor": "#d4d4d4",
+        "borderRadius": "6",
+        "fontTextAlign": "center",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "BUTTON",
+      "rawData": {
+        "value": [
+          ["Refresh"]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Page2"
+      },
+      "actions": [
+        {
+          "code": "#Data.numRows = 3\n#Data.correlated = 1\n#Data.spreaded = 0\n#Data.multiply = 1\nCLICK(#Data.CreateDatasets)\n #myData = #Data.data\n#myData!A3 = #myData!2 * 500\n",
+          "type": "CLICK"
+        }
+      ]
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "showSeconds": false,
+        "showLocalTime": true,
+        "fractionDigits": 0,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 852,
+        "y": 102,
+        "order": 20,
+        "width": 445,
+        "height": 451
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "chart3",
+      "cellStyles": {
+        "value": [
+          ["","","","",""],
+          ["","","","",""],
+          ["","","","",""],
+          ["","","","",""],
+          ["","","","",""],
+          ["","","","",""],
+          ["","","","",""],
+          ["","","","",""],
+          ["","","","",""],
+          ["","","","",""],
+          ["","","","",""],
+          ["","","","",""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "hasGrid": true,
+        "fontSize": "10",
+        "gridSize": "1",
+        "chartType": "bubble",
+        "fontColor": "#222222",
+        "gridColor": "#CCCCCC",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": true,
+        "borderColor": "#d4d4d4",
+        "chartLegend": false,
+        "chartOffset": 4,
+        "showTooltip": false,
+        "borderRadius": "6",
+        "chartStacked": false,
+        "gridPosition": "both",
+        "chartLineType": "smooth",
+        "chartPosition": "center",
+        "displayLabels": true,
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "chartAlignment": "center",
+        "chartLineStyle": "solid",
+        "chartPointSize": 5,
+        "chartSuggested": true,
+        "showDataInRows": false,
+        "chartPointShape": "circle",
+        "chartHasZeroLine": false,
+        "chartTransparency": 0.7,
+        "isCenteredDataset": true,
+        "chartLineThickness": 2,
+        "chartZeroLineColor": "#444444",
+        "chartZeroLineWidth": 2,
+        "chartConnectionLine": false,
+        "chartLegendPosition": "top",
+        "showDataNameInFirstRow": false,
+        "chartConnectionLineColor": "#888888",
+        "chartConnectionLineWidth": 1
+      },
+      "type": "CHART",
+      "rawData": {
+        "value": [
+          [null]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Page2"
+      },
+      "actions": [
+        {
+          "code": "#table4",
+          "type": "TOOLTIPS"
+        },
+        {
+          "code": "#table3",
+          "type": "CONTENT"
+        },
+        {
+          "code": "#table4",
+          "type": "CHART_LABELS"
+        }
+      ]
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "showSeconds": false,
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 34,
+        "y": 844,
+        "order": 22,
+        "width": 459,
+        "height": 316
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "table3",
+      "cellStyles": {
+        "value": [
+          ["","","","",""],
+          ["","","","",""],
+          ["","","","",""],
+          ["","","","",""],
+          ["","","","",""],
+          ["","","","",""],
+          ["","","","",""],
+          ["","","","",""],
+          ["","","","",""],
+          ["","","","",""],
+          ["","","","",""],
+          ["","","","",""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "hasGrid": true,
+        "fontSize": "15",
+        "gridSize": "1",
+        "wordWrap": false,
+        "fontColor": "#222222",
+        "gridColor": "#CCCCCC",
+        "hasBorder": true,
+        "hasShadow": true,
+        "rowHeight": [30,30,30,30,30,30,30,30,30,30,30,30],
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "columnWidth": [70,70,70,70,70],
+        "showTooltip": false,
+        "borderRadius": "6",
+        "gridPosition": "both",
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "isAdjustToContent": true,
+        "verticalAlignment": "center"
+      },
+      "type": "TABLE",
+      "rawData": {
+        "value": [
+          [null]
+        ],
+        "viewType": "TABLE"
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Page2"
+      },
+      "actions": [
+        {
+          "code": "TRANSPOSE(#table1)",
+          "type": "CONTENT"
+        }
+      ]
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "showSeconds": false,
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 607,
+        "y": 873,
+        "order": 24,
+        "width": 459,
+        "height": 316
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "table4",
+      "cellStyles": {
+        "value": [
+          ["","","","",""],
+          ["","","","",""],
+          ["","","","",""],
+          ["","","","",""],
+          ["","","","",""],
+          ["","","","",""],
+          ["","","","",""],
+          ["","","","",""],
+          ["","","","",""],
+          ["","","","",""],
+          ["","","","",""],
+          ["","","","",""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "hasGrid": true,
+        "fontSize": "15",
+        "gridSize": "1",
+        "wordWrap": false,
+        "fontColor": "#222222",
+        "gridColor": "#CCCCCC",
+        "hasBorder": true,
+        "hasShadow": true,
+        "rowHeight": [30,30,30,30,30,30,30,30,30,30,30,30],
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "columnWidth": [70,70,70,70,70],
+        "showTooltip": false,
+        "borderRadius": "6",
+        "gridPosition": "both",
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "isAdjustToContent": true,
+        "verticalAlignment": "center"
+      },
+      "type": "TABLE",
+      "rawData": {
+        "value": [
+          [null]
+        ],
+        "viewType": "TABLE"
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Page2"
+      },
+      "actions": [
+        {
+          "code": "TRANSPOSE(#table1)",
+          "type": "CONTENT"
+        }
+      ]
+    },
+    {
+      "format": {
+        "fractionDigits": 2,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 30,
+        "y": 701,
+        "order": 4,
+        "width": 645,
+        "height": 92
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "myData",
+      "cellStyles": {
+        "value": [
+          ["","","","","","","","","","","",""],
+          ["","","","","","","","","","","",""],
+          [0,0,0,1,1,1,2,2,2,3,3,3]
+        ],
+        "stylesMap": [
+          {
+            "fontSize": "14",
+            "bgPattern": "DIAGONAL_FORWARD",
+            "fontColor": "#000000",
+            "hasBorder": true,
+            "background": "#dab670",
+            "borderSize": "1",
+            "fontFamily": "Nunito",
+            "fontItalic": false,
+            "fontWeight": false,
+            "borderColor": "#bdbdbd",
+            "hasBgPattern": false,
+            "fontTextAlign": "center",
+            "fontUnderline": false,
+            "hasBackground": true,
+            "borderPosition": ["top","right","bottom","left"],
+            "verticalAlignment": "center"
+          },
+          {
+            "fontSize": "14",
+            "bgPattern": "DIAGONAL_FORWARD",
+            "fontColor": "#000000",
+            "hasBorder": true,
+            "background": "#7097da",
+            "borderSize": "1",
+            "fontFamily": "Nunito",
+            "fontItalic": false,
+            "fontWeight": false,
+            "borderColor": "#bdbdbd",
+            "hasBgPattern": false,
+            "fontTextAlign": "center",
+            "fontUnderline": false,
+            "hasBackground": true,
+            "borderPosition": ["top","right","bottom","left"],
+            "verticalAlignment": "center"
+          },
+          {
+            "fontSize": "14",
+            "bgPattern": "DIAGONAL_FORWARD",
+            "fontColor": "#000000",
+            "hasBorder": true,
+            "background": "#8fda70",
+            "borderSize": "1",
+            "fontFamily": "Nunito",
+            "fontItalic": false,
+            "fontWeight": false,
+            "borderColor": "#bdbdbd",
+            "hasBgPattern": false,
+            "fontTextAlign": "center",
+            "fontUnderline": false,
+            "hasBackground": true,
+            "borderPosition": ["top","right","bottom","left"],
+            "verticalAlignment": "center"
+          },
+          {
+            "fontSize": "14",
+            "bgPattern": "DIAGONAL_FORWARD",
+            "fontColor": "#000000",
+            "hasBorder": true,
+            "background": "#da7074",
+            "borderSize": "1",
+            "fontFamily": "Nunito",
+            "fontItalic": false,
+            "fontWeight": false,
+            "borderColor": "#bdbdbd",
+            "hasBgPattern": false,
+            "fontTextAlign": "center",
+            "fontUnderline": false,
+            "hasBackground": true,
+            "borderPosition": ["top","right","bottom","left"],
+            "verticalAlignment": "center"
+          }
+        ]
+      },
+      "styles": {
+        "hasGrid": true,
+        "fontSize": "15",
+        "gridSize": "1",
+        "wordWrap": false,
+        "fontColor": "#222222",
+        "gridColor": "#CCCCCC",
+        "hasBorder": false,
+        "hasShadow": true,
+        "rowHeight": [30,30,30],
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "columnWidth": [53,53,53,53,53,53,53,53,53,53,53,53,53,53],
+        "showTooltip": false,
+        "borderRadius": "6",
+        "gridPosition": "both",
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "isAdjustToContent": true,
+        "verticalAlignment": "center"
+      },
+      "type": "TABLE",
+      "rawData": {
+        "value": [
+          [0.17525716919942713,0.009913705075154766,0.47414212081556606,1.7020405096641102,0.48848524544698346,0.0134900034503036,1.0486180000136929,1.9403263199796044,3.029912481280416,3.3183972293136326,3.3578643047717502,1.2847067722135415],
+          [0.01377886631429126,0.6982840488286519,1.9567906966710704,2.2097122074068998,1.2627423779056026,0.47410016766952845,2.5643830906669844,2.217975351379727,1.2994819720778312,2.2771287936061237,1.4142071242592986,1.436472351698645],
+          [6.88943315714563,349.14202441432593,978.3953483355352,1104.85610370345,631.3711889528013,237.05008383476422,1282.1915453334923,1108.9876756898636,649.7409860389156,1138.564396803062,707.1035621296493,718.2361758493225]
+        ],
+        "viewType": "TABLE"
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Page2"
+      },
+      "actions": [
+        {
+          "code": "COMBINE(EMPTY();EMPTY();\n    IF(\n        #quarter == \"Q1\"; #color3;\n        #quarter == \"Q2\";#color4;\n        #quarter == \"Q3\"; #color5;\n        #color6\n    );\n    vertical\n)",
+          "type": "STYLE"
+        }
+      ]
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 907,
+        "y": 755,
+        "order": 17,
+        "width": 55,
+        "height": 30
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "color6",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "14",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#000000",
+        "hasBorder": true,
+        "hasShadow": true,
+        "background": "#da7074",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#bdbdbd",
+        "showTooltip": false,
+        "borderRadius": "0",
+        "hasBgPattern": false,
+        "fontTextAlign": "center",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [null]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Page2"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 847,
+        "y": 755,
+        "order": 16,
+        "width": 55,
+        "height": 30
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "color5",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "14",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#000000",
+        "hasBorder": true,
+        "hasShadow": true,
+        "background": "#8fda70",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#bdbdbd",
+        "showTooltip": false,
+        "borderRadius": "0",
+        "hasBgPattern": false,
+        "fontTextAlign": "center",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [null]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Page2"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 729,
+        "y": 665,
+        "order": 5,
+        "width": 55,
+        "height": 30
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "cell1",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "fontColor": "#000000",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "borderRadius": "6",
+        "fontTextAlign": "center",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          ["styles"]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Page2"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 729,
+        "y": 755,
+        "order": 8,
+        "width": 55,
+        "height": 30
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "color3",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "14",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#000000",
+        "hasBorder": true,
+        "hasShadow": true,
+        "background": "#dab670",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#bdbdbd",
+        "showTooltip": false,
+        "borderRadius": "0",
+        "hasBgPattern": false,
+        "fontTextAlign": "center",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [null]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Page2"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "showSeconds": false,
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 30,
+        "y": 568,
+        "order": 19,
+        "width": 854,
+        "height": 187
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "table1",
+      "cellStyles": {
+        "value": [
+          ["","","","","","","","","","","",""],
+          ["","","","","","","","","","","",""],
+          ["","","","","","","","","","","",""],
+          ["","","","","","","","","","","",""],
+          ["","","","","","","","","","","",""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "hasGrid": true,
+        "fontSize": "15",
+        "gridSize": "1",
+        "wordWrap": false,
+        "fontColor": "#222222",
+        "gridColor": "#CCCCCC",
+        "hasBorder": true,
+        "hasShadow": true,
+        "rowHeight": [30,30,30,30,30],
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "columnWidth": [70,70,70,70,70,70,70,70,70,70,70,70],
+        "showTooltip": false,
+        "borderRadius": "6",
+        "gridPosition": "both",
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "isAdjustToContent": true,
+        "verticalAlignment": "center"
+      },
+      "type": "TABLE",
+      "rawData": {
+        "value": [
+          ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
+          [0.20390420367238438,0.856372603197836,1.1423031739131515,0.87316550695758,2.317825883311819,2.888299225603557,3.3816882924479774,3.662235690330966,2.4033018208117736,3.0125002747335112,3.425566875382448,2.7868397616969194],
+          [0.1589389817464939,0.36139395845796995,1.125599922143727,2.2992307321268,1.9875672599393392,1.5617919535322864,2.430426462654804,2.7977289307259356,3.433213248593937,2.943140437795508,3.215967994448344,3.380297365024113],
+          [79.46949087324695,180.696979228985,562.7999610718634,1149.6153660634,993.7836299696696,780.8959767661432,1215.213231327402,1398.8644653629678,1716.6066242969684,1471.5702188977539,1607.983997224172,1690.1486825120564],
+          ["Q1","Q1","Q1","Q2","Q2","Q2","Q3","Q3","Q3","Q4","Q4","Q4"]
+        ],
+        "viewType": "TABLE"
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Page2"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 30,
+        "y": 20,
+        "order": 2,
+        "width": 754,
+        "height": 44
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "cell2",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "36",
+        "wordWrap": true,
+        "fontColor": "#222222",
+        "hasBorder": true,
+        "hasShadow": false,
+        "background": "#e6e5e5",
+        "borderSize": "2",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#787878",
+        "showTooltip": false,
+        "borderRadius": "0",
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": false,
+        "borderPosition": ["bottom"],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          ["Bubble Charts"]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Page2"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 788,
+        "y": 755,
+        "order": 15,
+        "width": 55,
+        "height": 30
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "color4",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "14",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#000000",
+        "hasBorder": true,
+        "hasShadow": true,
+        "background": "#7097da",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#bdbdbd",
+        "showTooltip": false,
+        "borderRadius": "0",
+        "hasBgPattern": false,
+        "fontTextAlign": "center",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [null]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Page2"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 729,
+        "y": 695,
+        "order": 6,
+        "width": 55,
+        "height": 30
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "color1",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "14",
+        "wordWrap": true,
+        "fontColor": "#ffffff",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#787878",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#3d3d3d",
+        "showTooltip": false,
+        "borderRadius": "0",
+        "fontTextAlign": "center",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [null]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Page2"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "showSeconds": false,
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 1181,
+        "y": 57,
+        "order": 27,
+        "width": 90,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "cell5",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [2]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Page2"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 729,
+        "y": 725,
+        "order": 7,
+        "width": 55,
+        "height": 30
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "color2",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "14",
+        "wordWrap": true,
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#bdbdbd",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": true,
+        "fontWeight": false,
+        "borderColor": "#3d3d3d",
+        "showTooltip": false,
+        "borderRadius": "0",
+        "fontTextAlign": "center",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [null]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Page2"
+      },
+      "actions": []
+    },
+    {
+      "format": {},
+      "geometry": {
+        "x": 30,
+        "y": 70,
+        "order": 9,
+        "width": 570,
+        "height": 77
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "text1",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "hasBorder": false,
+        "hasShadow": false,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"]
+      },
+      "type": "TEXT",
+      "rawData": {
+        "value": [
+          ["{\"root\":{\"children\":[{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"Chemical Inc.\",\"type\":\"text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"paragraph\",\"version\":1},{\"children\":[{\"detail\":0,\"format\":1,\"mode\":\"normal\",\"style\":\"\",\"text\":\"Net sales\",\"type\":\"text\",\"version\":1},{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\" in T€ in all calendar months\",\"type\":\"text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"paragraph\",\"version\":1},{\"children\":[{\"detail\":0,\"format\":0,\"mode\":\"normal\",\"style\":\"\",\"text\":\"2022 AC\",\"type\":\"text\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"paragraph\",\"version\":1}],\"direction\":\"ltr\",\"format\":\"\",\"indent\":0,\"type\":\"root\",\"version\":1}}"]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Page2"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 30,
+        "y": 802,
+        "order": 18,
+        "width": 640,
+        "height": 30
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "quarter",
+      "cellStyles": {
+        "value": [
+          ["","","","","","","","","","","",""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "hasGrid": true,
+        "fontSize": "15",
+        "gridSize": "1",
+        "wordWrap": false,
+        "fontColor": "#222222",
+        "gridColor": "#CCCCCC",
+        "hasBorder": true,
+        "hasShadow": true,
+        "rowHeight": [30],
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "columnWidth": [53,53,53,53,53,53,53,53,53,53,53,53,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70],
+        "showTooltip": false,
+        "borderRadius": "6",
+        "gridPosition": "both",
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "isAdjustToContent": true,
+        "verticalAlignment": "center"
+      },
+      "type": "TABLE",
+      "rawData": {
+        "value": [
+          ["Q1","Q1","Q1","Q2","Q2","Q2","Q3","Q3","Q3","Q4","Q4","Q4"]
+        ],
+        "viewType": "ROW"
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Page2"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 30,
+        "y": 603,
+        "order": 1,
+        "width": 754,
+        "height": 38
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "cell3",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "28",
+        "wordWrap": true,
+        "fontColor": "#222222",
+        "hasBorder": true,
+        "hasShadow": false,
+        "background": "#e6e5e5",
+        "borderSize": "2",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#787878",
+        "showTooltip": false,
+        "borderRadius": "0",
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": false,
+        "borderPosition": ["bottom"],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          ["Data"]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Page2"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "showSeconds": false,
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 38,
+        "y": 700,
+        "order": 23,
+        "width": 854,
+        "height": 187
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "table2",
+      "cellStyles": {
+        "value": [
+          ["","","","","","","","","","","",""],
+          ["","","","","","","","","","","",""],
+          ["","","","","","","","","","","",""],
+          ["","","","","","","","","","","",""],
+          ["","","","","","","","","","","",""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "hasGrid": true,
+        "fontSize": "15",
+        "gridSize": "1",
+        "wordWrap": false,
+        "fontColor": "#222222",
+        "gridColor": "#CCCCCC",
+        "hasBorder": true,
+        "hasShadow": true,
+        "rowHeight": [30,30,30,30,30],
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "columnWidth": [70,70,70,70,70,70,70,70,70,70,70,70],
+        "showTooltip": false,
+        "borderRadius": "6",
+        "gridPosition": "both",
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "isAdjustToContent": true,
+        "verticalAlignment": "center"
+      },
+      "type": "TABLE",
+      "rawData": {
+        "value": [
+          ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
+          [0.20390420367238438,0.856372603197836,1.1423031739131515,0.87316550695758,2.317825883311819,2.888299225603557,3.3816882924479774,3.662235690330966,2.4033018208117736,3.0125002747335112,3.425566875382448,2.7868397616969194],
+          [0.1589389817464939,0.36139395845796995,1.125599922143727,2.2992307321268,1.9875672599393392,1.5617919535322864,2.430426462654804,2.7977289307259356,3.433213248593937,2.943140437795508,3.215967994448344,3.380297365024113],
+          ["asaaaaaaaa","juy","asfas",1149.6153660634,993.7836299696696,780.8959767661432,1215.213231327402,1398.8644653629678,1716.6066242969684,1471.5702188977539,1607.983997224172,1690.1486825120564],
+          ["aaa","qaa","Q1","Q2","Q2","Q2","Q3","Q3","Q3","Q4","Q4","Q4"]
+        ],
+        "viewType": "TABLE"
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Page2"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "fractionDigits": -1,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 797,
+        "y": 665,
+        "order": 12,
+        "width": 55,
+        "height": 30
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "cell4",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "fontColor": "#ffffff",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "fontTextAlign": "center",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          ["styles"]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Page2"
+      },
+      "actions": []
+    }
+  ],
+  "parentId": {
+    "childPageTitle": "Page2",
+    "parentTitle": "Page3",
+    "appTitle": "les"
+  }
+}

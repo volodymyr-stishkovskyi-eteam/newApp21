@@ -1,0 +1,1750 @@
+{
+  "title": "Page3",
+  "actions": [],
+  "displayName": null,
+  "description": null,
+  "position": 0,
+  "availabilityInLiveMode": true,
+  "styles": {
+    "hasBorder": false,
+    "pageWidth": "1260",
+    "background": "#ffffff",
+    "borderSize": "1",
+    "pageHeight": "770",
+    "borderColor": "#d4d4d4",
+    "hasBackground": true
+  },
+  "widgets": [
+    {
+      "format": {
+        "dateType": "DATE",
+        "showSeconds": false,
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 257,
+        "y": 264,
+        "order": 1,
+        "width": 90,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "button1",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "fontColor": "#ffffff",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#787878",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": true,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "fontTextAlign": "center",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "BUTTON",
+      "rawData": {
+        "value": [
+          [null]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Page3"
+      },
+      "actions": [
+        {
+          "code": "DOWNLOAD(\"etreterter\";\"etr.txt\")",
+          "type": "CLICK"
+        },
+        {
+          "code": "\"DOWNLOAD\"",
+          "type": "CONTENT"
+        }
+      ]
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "showSeconds": false,
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 421,
+        "y": 264,
+        "order": 6,
+        "width": 90,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "button2",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "fontColor": "#ffffff",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#787878",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": true,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "fontTextAlign": "center",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "BUTTON",
+      "rawData": {
+        "value": [
+          [null]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Page3"
+      },
+      "actions": [
+        {
+          "code": "IF(QUESTION(\"do you want List\"; \"save list\"; \"cancel\"; \"yes\";\"no\") == 3; CLICK(#button3))",
+          "type": "CLICK"
+        },
+        {
+          "code": "\"QUESTION\"",
+          "type": "CONTENT"
+        }
+      ]
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "showSeconds": false,
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 257,
+        "y": 462,
+        "order": 9,
+        "width": 90,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "button4",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "fontColor": "#ffffff",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#787878",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": true,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "fontTextAlign": "center",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "BUTTON",
+      "rawData": {
+        "value": [
+          [null]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Page3"
+      },
+      "actions": [
+        {
+          "code": "MESSAGE(\"etreterter\";\"etr.txt\")",
+          "type": "CLICK"
+        },
+        {
+          "code": "\"MESSAGE\"",
+          "type": "CONTENT"
+        }
+      ]
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "showSeconds": false,
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 583,
+        "y": 262,
+        "order": 7,
+        "width": 90,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "button3",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "fontColor": "#ffffff",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#787878",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": true,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "fontTextAlign": "center",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "BUTTON",
+      "rawData": {
+        "value": [
+          [null]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Page3"
+      },
+      "actions": [
+        {
+          "code": "#cell4 = #cell4 + 1",
+          "type": "CLICK"
+        }
+      ]
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "showSeconds": false,
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 421,
+        "y": 462,
+        "order": 11,
+        "width": 90,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "button5",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "fontColor": "#ffffff",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#787878",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": true,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "fontTextAlign": "center",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "BUTTON",
+      "rawData": {
+        "value": [
+          [null]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Page3"
+      },
+      "actions": [
+        {
+          "code": "\"SCANCODE\"",
+          "type": "CONTENT"
+        },
+        {
+          "code": "#cell6 = SCANCODE()",
+          "type": "CLICK"
+        }
+      ]
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "showSeconds": false,
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 760,
+        "y": 264,
+        "order": 16,
+        "width": 90,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "button7",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "fontColor": "#ffffff",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#787878",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": true,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "fontTextAlign": "center",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "BUTTON",
+      "rawData": {
+        "value": [
+          [null]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Page3"
+      },
+      "actions": [
+        {
+          "code": "#cell9 = UPLOAD()",
+          "type": "CLICK"
+        },
+        {
+          "code": "\"UPLOAD\"",
+          "type": "CONTENT"
+        }
+      ]
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "showSeconds": false,
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 583,
+        "y": 462,
+        "order": 13,
+        "width": 90,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "button6",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "fontColor": "#ffffff",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#787878",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": true,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "fontTextAlign": "center",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "BUTTON",
+      "rawData": {
+        "value": [
+          [null]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Page3"
+      },
+      "actions": [
+        {
+          "code": "\"SCANCODE\"",
+          "type": "CONTENT"
+        }
+      ]
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "showSeconds": false,
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 890,
+        "y": 264,
+        "order": 18,
+        "width": 116,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "button8",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "fontColor": "#ffffff",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#787878",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": true,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "fontTextAlign": "center",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "BUTTON",
+      "rawData": {
+        "value": [
+          [null]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Page3"
+      },
+      "actions": [
+        {
+          "code": "\"UPLOADFILE\"",
+          "type": "CONTENT"
+        },
+        {
+          "code": "#cell10 = UPLOADFILE()",
+          "type": "CLICK"
+        }
+      ]
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "hasTabOrder": false,
+        "showSeconds": false,
+        "tabOrderName": "",
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 44,
+        "y": 39,
+        "order": 22,
+        "width": 1167,
+        "height": 659
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "table4",
+      "cellStyles": {
+        "value": [
+          ["",""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "hasGrid": true,
+        "fontSize": "15",
+        "gridSize": "1",
+        "wordWrap": false,
+        "fontColor": "#222222",
+        "gridColor": "#CCCCCC",
+        "hasBorder": true,
+        "hasShadow": true,
+        "rowHeight": [30],
+        "background": "#b7ebfc",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#0a0808",
+        "columnWidth": [70,70,70,70,70,70,70,70,70,70,70,70,70,70,70,70],
+        "showTooltip": false,
+        "borderRadius": "6",
+        "gridPosition": "both",
+        "fontTextAlign": "auto",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "isAdjustToContent": true,
+        "verticalAlignment": "center"
+      },
+      "type": "TABLE",
+      "rawData": {
+        "value": [
+          [null]
+        ],
+        "viewType": "TABLE",
+        "dataSourceOptions": {
+          "port": "1433",
+          "type": "ODBC",
+          "token": "",
+          "dbName": "antares_RIMIS",
+          "driver": "MsSQL",
+          "server": "nedyx-azure-db.database.windows.net",
+          "tables": ["___V_FuerListenanalyse","ALT_STR_CRTyp_VerteilFkt","ALT_STR_Fragenkatalog_Rolle","ALT_STR_Fragenkatalog_User","ALT_V_BEW_Emails_Replace","ALT_V_IND_Lanxess_ExcelExport","ARC_BEW_CR","ARC_BEW_CR_Auswirkung","ARC_BEW_CR_Berichtsempfaenger","ARC_BEW_CR_Brutto","ARC_BEW_CR_Compliance","ARC_BEW_CR_CRPolitik","ARC_BEW_CR_CRUrsache","ARC_BEW_CR_Datto","ARC_BEW_CR_GlobWahrscheinlichkeit","ARC_BEW_CR_Indikator","ARC_BEW_CR_Indikator_2","ARC_BEW_CR_Kommentar","ARC_BEW_CR_Massnahme","ARC_BEW_CR_Massnahme_Wirkung","ARC_BEW_CR_MassnWirksamkeit","ARC_BEW_CR_Netto","ARC_BEW_CR_QualBewertung_RA","ARC_BEW_CR_QualBewertung_REG","ARC_BEW_CR_QualGlobWS","ARC_BEW_CR_Verteilung","ARC_BEW_CR_Ziel","ARC_BEW_Einheit_Finanz","ARC_BEW_Kurse_Plandaten","ARC_BEW_MassnWirksamkeit","ARC_ST_CR","ARC_STR_Asset_Hierarchie_auto","ARC_STR_Konto_Hierarchie_auto","ARC_STR_LegalEinheit_Hierarchie_auto","ARC_STR_OrgEinheit_Hierarchie_auto","ARC_STR_Prozess_Hierarchie_auto","bak_20240130_BEW_CR_Verteilung","BAK_ChangeFreq_BEW_IKS_Check","BAK_ChangeFreq_BEW_IKS_Soll","BAK_ChangeFreq_BEW_IKS_Status","BAK_V_BEW_IKS_Check_Auswertung","BAK_V_BEW_IKS_Check_Auswertung_Aktiv","BAK_V_BEW_IKS_Check_Verantwortlich_nach_Faelligkeit","BAK_V_IND_PEL_Excel_Export","BEW_Bericht","BEW_Bericht_Dokumentation_Periode","BEW_Berichtsseiten","BEW_Berichtsvorlagen","BEW_Checkliste_Antwort","BEW_CR","BEW_CR_Auswirkung","BEW_CR_Berichtsempfaenger","BEW_CR_Brutto","BEW_CR_Compliance","BEW_CR_CRPolitik","BEW_CR_CRUrsache","BEW_CR_Datto","BEW_CR_GlobWahrscheinlichkeit","BEW_CR_Indikator","BEW_CR_Indikator_2","BEW_CR_Indikator_DeleteCache","BEW_CR_Kommentar","BEW_CR_Konto","BEW_CR_Korrelation","BEW_CR_Massnahme","BEW_CR_Massnahme_Wirkung","BEW_CR_MassnWirksamkeit","BEW_CR_Netto","BEW_CR_QualBewertung_RA","BEW_CR_QualBewertung_REG","BEW_CR_QualGlobWS","BEW_CR_Sprache","BEW_CR_Status","BEW_CR_UserErinnerung","BEW_CR_Verteilung","BEW_CR_Ziel","BEW_DS_CR_Meldung","BEW_DSFA_Entscheidung","BEW_DSFA_Vorbereitung","BEW_DSSchutzbedarf","BEW_DSVerfahren","BEW_DSVerfahren_Datenkategorie","BEW_DSVerfahren_External_Funktion_Zugriff","BEW_DSVerfahren_Land","BEW_DSVerfahren_Massnahmen","BEW_DSVerfahren_OrgLegal_Funktion_Zugriff","BEW_Einheit_Finanz","BEW_Emails","BEW_Evaluation_Liste_Fragenkatalog","BEW_Evaluation_Liste_Fragenkatalog_OrgLegal","BEW_Evaluation_Liste_Schadenspotential","BEW_Evaluation_Liste_Schadenspotential_OrgLegal","BEW_Event","BEW_IKS_Check","BEW_IKS_Ist","BEW_IKS_Kontrolle_Kommentar","BEW_IKS_Soll","BEW_IKS_Soll_Del","BEW_IKS_Status","BEW_IKS_UserErinnerung","BEW_IKS_UserErinnerung_IKSM","BEW_Import","BEW_Indikator","BEW_Indikator_FarbChangelog","BEW_ISMS_Asset_Bewertung","BEW_ISMSGefaehrdungsrelevanz","BEW_ISMSRelevanteAnforderungen","BEW_ISMSTx_Ergebnisse","BEW_Konto","BEW_Kurse","BEW_Kurse_Plandaten","BEW_Kurse_Temp","BEW_MassnStatus","BEW_MassnWirksamkeit","BEW_Mn_Check","BEW_News","BEW_News_ID","BEW_ParamCustomizing","BEW_Periodenabschluss","BEW_PreventInjection","BEW_Produkt_Kennzahlen","BEW_ProzedurLog","BEW_Schadenspotential_ToDo","BEW_SessionLog","BEW_SimCopula","BEW_SimErgebnis","BEW_Simulation_Input1","BEW_Simulation_Input2","BEW_Simulation_Input3","BEW_Simulation_Input4","BEW_Simulation_Output","BEW_Simulation_Output_Log","BEW_SimZufallszahlen","BEW_Termine","BEW_Termine_Rolle","BEW_TreiberNo","BEW_TrivialPW","BEW_Useraktion","BEW_Waehrungskurse","BEW_Waehrungskurse_relevant_auto","countries","HT_Org_Import","IND_MD_User_Import","IND_NETZSCH_Risikostatistik","IND_NETZSCH_Risikostatistik_Antwort","IND_PEL_Excel_Export","IND_PEL_Excel_Export_neu","IND_SAF_V_BEW_IKS_Check_Auswertung","IND_SAF_V_BEW_IKS_Check_Auswertung_2","IND_ST_Parameter","ST_ADAbfragen","ST_AktPeriode","ST_Art_Kontrolle","ST_Asset","ST_Asset_ID","ST_Assetklasse","ST_Assettyp","ST_Audit","ST_Audit_ID","ST_Auftrag","ST_Auftrag_ID","ST_AuswirkungUnBereich","ST_Bericht","ST_Bericht_Del","ST_Berichtsart","ST_Berichtsform","ST_Berichtsintervall","ST_Berichtsseiten","ST_Berichtsseiten_ID","ST_Berichtsvorlagen","ST_Berichtsvorlagen_ID","ST_Bild","ST_Bild_Temp","ST_BuildingLevel","ST_Checkliste_Frage","ST_Checkliste_Frage_ID","ST_Checkliste_Katalog","ST_Checkliste_Katalog_ID","ST_Cluster","ST_Compliance_ControlLevel","ST_Compliance_ControlLevel_ID","ST_Compliance_Funktion","ST_Compliance_L1","ST_Compliance_L2","ST_Compliance_L3","ST_Compliance_L4","ST_Compliance_L5","ST_Compliance_L6","ST_Compliance_Organ","ST_Compliance_Rechtsform","ST_Compliance_Schweregrad","ST_Compliance_Schweregrad_ID","ST_Compliance_Wirkung","ST_CR","ST_CR_Del","ST_CRArt","ST_CRKat123_Beschreibung","ST_CRKategorie_L1","ST_CRKategorie_L1St","ST_CRKategorie_L2","ST_CRKategorie_L3","ST_CRMerkmal","ST_CRMerkmal_ID","ST_CRMerkmal2","ST_CRMerkmal2_ID","ST_CRMerkmal3","ST_CRMerkmal4","ST_CRMerkmal5","ST_CRMerkmal6","ST_CRMerkmal7","ST_CRMerkmal8","ST_CRPolitik","ST_CRPolitik_Del","ST_CRPolitik_ID","ST_CRPolitikKlasse","ST_CRQualEigenschaft","ST_CRQualEigenschaft_ID","ST_CRQualSchaden","ST_CRQualSchaden_ID","ST_CRQualSchweregrad","ST_CRQualSchweregrad_ID","ST_CRStrategie","ST_CRStrategie_ID","ST_CRTyp","ST_CRTyp_ID","ST_Datenquelle","ST_Datenquelle_ID","ST_DBSupportAbfrage","ST_DBSupportAbfrage_ID","ST_Dokument","ST_Dokumentation","ST_Dokumentation_Del","ST_DokumentText","ST_DSBetrInformationsart","ST_DSBetroffenengruppe","ST_DSBetroffenengruppe_ID","ST_DSBetrSpeicherOrt","ST_DSDatenkategorie","ST_DSDatenkategorie_ID","ST_DSFunktion","ST_DSHeatMap","ST_DSMassnahme","ST_DSMassnMOD","ST_DSMeldungsempfaenger","ST_DSRechtsgrundlage","ST_DSRechtsgrundlageklasse","ST_DSSchutzbedarf","ST_DSSchutzbedarf_ID","ST_DSSchutzziel","ST_DSSchutzziel_ID","ST_DSSchutzzielklasse","ST_DSSchutzzielklasse_ID","ST_DSZugriffsrecht","ST_DSZweck","ST_Effizienz","ST_Eingabekonto","ST_Eingabekonto_ID","ST_Einheit","ST_Einheit_ID","ST_Einzelkomponente","ST_Einzelkomponente_ID","ST_Erwartungscluster","ST_ESGScale","ST_ESGScale_ID","ST_ESGScope","ST_ESGScope_ID","ST_ESGUnheilbar","ST_ESGUnheilbar_ID","ST_Event","ST_Event_ID","ST_Farbe","ST_Filter","ST_Filter_ID","ST_Fragenkatalog_Evaluation","ST_Fragenkatalog_Evaluation_Del","ST_Geschaeftsp_ID","ST_GlobWS","ST_GlobWS_ID","ST_Glossar","ST_Gueltigkeit","ST_Gueltigkeit_ID","ST_Gueltigkeit_ID_Rel_Auto","ST_GUIText","ST_HilfeText","ST_Icon","ST_IKS_CheckStatus","ST_IKS_CheckStatus_ID","ST_IKS_Status","ST_IKS_Status_ID","ST_IKSChecktyp","ST_IKSKontrolle","ST_IKSKontrolle_Del","ST_IKSKontrolle_ID","ST_IKSKontrollfrequenz","ST_IKSKontrollfrequenz_ID","ST_IKSkontrollfrequenz_ID_fix","ST_IKSKontrollfrequenz2_ID","ST_IKSKontrolltyp","ST_IKSKontrolltyp2","ST_IKSKontrolltyp3","ST_IKSKontrolltyp4","ST_IKSKontrollziel","ST_IKSKontrollziel_ID","ST_IND_Berichstexte","ST_Indikator","ST_Indikator_Del","ST_Indikator_ID","ST_Indikatorklasse","ST_IndikatorTyp","ST_ISMSAnforderung","ST_ISMSBaustein","ST_ISMSBausteinSubKat","ST_ISMSGefaehrdung","ST_ISMSMassnahme","ST_ISMSSchutzbedarf","ST_ISMSSchutzklasse","ST_ISMSTx_Anforderungen","ST_ISMSTx_Change_History","ST_ISMSTx_Datenschutz","ST_ISMSTx_Definitionen","ST_ISMSTx_Informationssicherheit","ST_ISMSTx_IS_PS_DS_OP","ST_ISMSTx_ISA","ST_ISMSTx_Prototypenschutz","ST_ISMSTx_Reifegrad","ST_Katalog_Evaluation","ST_Katalog_Evaluation_Del","ST_Katalog_Evaluation_ID","ST_Katalog_Evaluation_Typ","ST_Katalog_Evaluation_Typ_ID","ST_Kennzahl","ST_Kommentarklasse","ST_Kommentarklasse_ID","ST_Komponententyp","ST_Kontinent","ST_Konto","ST_Konto_Del","ST_Konto_ID","ST_Kursbasis","ST_Kursbasis_Del","ST_Kursbasis_ID","ST_Kursbasis_Kennzahlen","ST_Kursbasis_Kennzahlen_Szenarien","ST_Land","ST_Land_ID","ST_LegalEinheit","ST_LegalEinheit_Del","ST_Liste_Evaluation","ST_Lizenz","ST_LoginMenue","ST_LoginMenueCRStatus","ST_LoginMenueHallo","ST_LoginMenueShortcuts","ST_LoginMenueUebersicht","ST_Mailserver","ST_Mailstandards","ST_Masken","ST_Masken_ID","ST_Masken_Lizenz","ST_Massnahme","ST_Massnahme_Del","ST_Massnahme_ID","ST_Massnahmengruppe","ST_Massnahmenklasse","ST_Massnahmenklasse_ID","ST_MassnStatus","ST_MassnStatus_ID","ST_MassnVorschlag","ST_MassnVorschlag_ID","ST_MasterLayout","ST_Menu","ST_Menu_Del","ST_Menu_ID","ST_Methode","ST_Methode_ID","ST_Mitteilung","ST_ModulMeldung","ST_Nachvollziehbarkeit","ST_Nachvollziehbarkeit_ID","ST_OrgAttribut1","ST_OrgAttribut2","ST_OrgAttribut3","ST_OrgAttribut4","ST_OrgAttribut5","ST_OrgEinheit","ST_OrgEinheit_Del","ST_Parameter","ST_Parameter_Archiv","ST_Parameter_Testserver","ST_ParameterGruppe","ST_Policy","ST_Policy_ID","ST_Produkt","ST_Produkt_ID","ST_Prozedur","ST_Prozess","ST_Prozess_Del","ST_Prozess_ID","ST_QualEW","ST_QualEW_ID","ST_Quantil01SdtDev","ST_Rechnung_ID","ST_Reputation","ST_Reviewintervall","ST_Rolle","ST_Rolle_Del","ST_Rolle_ID","ST_Schadenspotential_Evaluation","ST_Schadenspotential_Evaluation_ID","ST_Schadenspotential_Evaluation_Typ","ST_Schweregrad","ST_Schweregrad_ID","ST_Selektion","ST_Selektion_Del","ST_Selektion_ID","ST_Selektion_ID_Stat_Indikator","ST_Selektion_ID_Stat_Kennzahl","ST_Selektion_ID_Stat_Massnahme","ST_Selektion_ID_Stat_Rest","ST_SessionEinstellung","ST_SimCopula","ST_SimCopula_ID","ST_SimKorrelation","ST_SimKorrelation_ID","ST_SimSzenario","ST_SimSzenario_Del","ST_SimSzenario_ID","ST_Simulation","ST_Simulation_ID","ST_Sprache","ST_Stadt","ST_StammdatenTab","ST_Startmaske","ST_Status","ST_Status_ID","ST_Status_Periode","ST_Status_Periode_ID","ST_Status_Periode_ID_Rel_Auto","ST_StdDokumentText","ST_StdProzess","ST_StdProzess_ID","ST_Stichtag","ST_Stopword","ST_Stunde_ID","ST_Szenario","ST_Szenario_ID","ST_Tendenz","ST_Tendenz_ID","ST_Tooltip","ST_TreiberNo","ST_TreiberNo_ID","ST_Umsetzungsgrad","ST_Umsetzungsgrad_ID","ST_UrsachenBeeinflussbarkeit","ST_UrsachenEinfluss","ST_UrsachenKlasse","ST_User","ST_User_AlternativerLogin","ST_User_Del","ST_User_PWsafe","ST_Variable","ST_Variable_ID","ST_Verteilungsfkt","ST_Verteilungsfkt_ID","ST_Vertrag_ID","ST_Vertrag_Kategorien","ST_Waehrung","ST_Wahrscheinlichkeit","ST_Wahrscheinlichkeit_ID","ST_Wirksamkeit","ST_Wirksamkeit_ID","ST_Wirkung","ST_Wirkung_EK","ST_Wirkung_EK_ID","ST_Wirkung_ID","ST_WNThema","ST_WNWebcast","ST_Workflow","ST_Workflow_ID","STR_Asset","STR_Asset_Hierarchie_auto","STR_Asset_ParentChild_auto","STR_Checkliste_Frage_Katalog","STR_Checkliste_Katalog_Rolle","STR_Checkliste_Katalog_User","STR_Compliance","STR_Compliance_Funktion_OrgLegal_User","STR_Compliance_LegalEinheit","STR_Compliance_Methode","STR_Compliance_Rechtsform","STR_Compliance_Schweregrad","STR_Compliance_Wirkung","STR_CR_AuswirkungUnBereich","STR_CR_Berichtsart","STR_CR_CRFolge","STR_CR_CRKategorie_Multi","STR_CR_CRUrsache","STR_CR_IKSKontrolle_ind","STR_CR_ISMS_ISMSTx","STR_CR_Schadenspotential_Quelle","STR_CR_StratZiel","STR_CR_Substitution","STR_CRKategorie","STR_CRKategorie_CRPolitik","STR_CRKategorie_Eingabekonto","STR_CRKategorie_Methode","STR_CRKategorie_OrgLegal","STR_CRKategorie_Policy","STR_CRKategorie_Ursachenklasse","STR_CRMerkmal2_ID_Klasse","STR_CRMerkmal2zu1","STR_CRTyp_Eingabekonto","STR_CRTyp_Szenario","STR_DSDatenkategorie_Gefaehrdung","STR_DSDatenkategorie_Schutzziel_Klasse","STR_DSFA_Gefaehrdung_CR","STR_DSFA_Verfahren","STR_DSVerfahren_Asset","STR_DSVerfahren_Gefaehrdung_CR","STR_DSVerfahren_Geschaeftsp_Zugriff","STR_DSVerfahren_LegalEinheit","STR_DSVerfahren_OrgEinheit","STR_DSVerfahren_Prozess","STR_DSVerfahren_Rechtsgrundlage","STR_DSVerfahren_Schadenspotential_Quelle","STR_DynURL","STR_Eingabekonto_Konto","STR_ESG_Schweregrad_ScaleScopeUnheilbar","STR_Fragenkatalog_Evaluation","STR_Gefaehrdung_Massnahme","STR_Gefaehrdung_MnVorschlag","STR_Heatmap_Farbe","STR_Heatmap_Farbe_glob_WS","STR_IKS_CheckStatus_Erlaubt","STR_IKS_CR","STR_IKS_Kontrolle_Cluster","STR_IKS_KontrollenCheck_Farbe_Matrix","STR_IKS_Massnahme","STR_IKS_Status_Erlaubt","STR_IKSM_Vertretung","STR_ISMSAnforderung_Gefaehrdung","STR_ISMSTx_Massnahme","STR_Kat123_Org_User","STR_Katalog_Evaluation_Definiton","STR_Katalog_Evaluation_Rolle","STR_Katalog_Evaluation_User","STR_Konto","STR_Konto_Hierarchie_auto","STR_Konto_Korrelation","STR_Kursbasis_Korrelation","STR_LegalEinheit","STR_LegalEinheit_Asset","STR_LegalEinheit_Hierarchie_auto","STR_LegalEinheit_IKS_relevanter_Prozess","STR_LegalEinheit_ParentChild_auto","STR_LegalEinheit_Wirkung_Wert","STR_MassnStatus_Erlaubt","STR_Menu_Rolle","STR_OrgCluster_Wirkung_Wert","STR_OrgEinheit","STR_OrgEinheit_Hierarchie_auto","STR_OrgEinheit_IKS_relevanter_Prozess","STR_OrgEinheit_ParentChild_auto","STR_OrgEinheit_Tornado_Korrektur","STR_OrgEinheit_Wirkung_EK_Wert","STR_OrgEinheit_Wirkung_Wert","STR_OrgLegal_Change","STR_OrgLegal_CRPolitik","STR_OrgLegal_Dokumentation","STR_OrgLegal_IKSKontrolle_deaktiviert","STR_OrgLegal_PeriodenKommentare","STR_Parameter_Gruppe","STR_Produkt_Geschaeftsp","STR_Prozess","STR_Prozess_Hierarchie_auto","STR_Prozess_IKSKontrolle","STR_Prozess_IKSKontrollziel","STR_Prozess_ParentChild_auto","STR_Prozess_Schadenspotential","STR_Qual_GlobWS_Bedeutungszahl","STR_Qual_Schweregrad_Wirkung_Bedeutungszahl","STR_Rechtsform_Organ","STR_RM_Vertretung","STR_RMFreigabeLevel","STR_Schadenspotential_Evaluation","STR_Schadenspotential_IKSKontrolle","STR_Schadenspotential_Katalog","STR_Schadenspotential_Massnahme","STR_Schadenspotential_Wirkung_Wahrscheinlichkeit","STR_Selektion_CR_dyn","STR_Status_erlaubt","STR_StdProzComplianceMnVorschl","STR_StdProzess","STR_StdProzessCompliance","STR_TreiberNo_Compliance_SchwereControl","STR_TreiberNo_WahrWirk","STR_TreiberNo_Wirk_Rep_Schweregrad","STR_User_Asset","STR_User_Asset_All_auto","STR_User_Asset_Read_auto","STR_User_Asset_show_auto","STR_User_Asset_Write_auto","STR_User_Default","STR_User_IKS_IKSM","STR_User_IKS_IKSM_auto","STR_User_IKS_IKSM_Check_Umsetzung_Auto","STR_User_IKS_IKSM_Hierarchie_auto","STR_User_IKS_IKSM_Umsetzung_Auto","STR_User_Kat123","STR_User_Kat123_Additiv","STR_User_KategorieLevel","STR_User_KategorieLevel_Additiv","STR_User_LegalEinheit","STR_User_LegalEinheit_All_auto","STR_User_LegalEinheit_Read_auto","STR_User_LegalEinheit_show_auto","STR_User_LegalEinheit_Write_auto","STR_User_MenuFavorit","STR_User_MerkmalBerechtigung","STR_User_Orgeinheit","STR_User_OrgEinheit_All_auto","STR_User_OrgEinheit_Read_auto","STR_User_OrgEinheit_show_auto","STR_User_OrgEinheit_Write_auto","STR_User_Prozess","STR_User_Prozess_All_auto","STR_User_Prozess_Read_auto","STR_User_Prozess_show_auto","STR_User_Prozess_Write_auto","STR_User_RO_RM","STR_User_RO_RM_auto","STR_User_RO_RM_Hierarchie_auto","STR_User_Treiber_FreigabeLevel","STR_User_Vertretung","STR_User_Vertretung_Legal","STR_Vertrag_Geschaeftsp","STR_Wahrscheinlichkeit_ID_Klasse","STR_Wirk_Rep_Schweregrad","STR_Wirkung_ID_Klasse","STR_WN_User","STR_Workflow_Maske","SYS_DB_Akt_Stand","SYS_OrgLegal_IDchange","SYS_Update_DBObjekte_BesondersBeachten","SYS_Update_DBTabellen","SYS_Update_Kunde","SYS_User_PseudonymTab","Temp_BEW_CR","Temp_BEW_CR_Auswirkung","Temp_BEW_CR_Brutto","Temp_BEW_CR_Compliance","Temp_BEW_CR_Datto","Temp_BEW_CR_GlobWahrscheinlichkeit","Temp_BEW_CR_Kommentar","Temp_BEW_CR_Konto","Temp_BEW_CR_Korrelation","Temp_BEW_CR_Massnahme","Temp_BEW_CR_Massnahme_Fortschreiben","Temp_BEW_CR_Massnahme_Wirkung_Fortschreiben","Temp_BEW_CR_MassnWirksamkeit","Temp_BEW_CR_Netto","Temp_BEW_CR_QualBewertung_RA","Temp_BEW_CR_QualBewertung_REG","Temp_BEW_CR_QualGlobWS","Temp_BEW_CR_Verteilung","Temp_BEW_CR_Ziel","Temp_BEW_Einheit_Finanz","Temp_BEW_IKS_Soll","Temp_BEW_IKS_Soll_Check","Temp_BEW_Indikator_Import","Temp_BEW_Kurse_Plandaten","Temp_BEW_MassnStatus","Temp_BEW_MassnWirksamkeit","Temp_BEW_SessionLog","Temp_BEW_Waehrungskurse","Temp_BiPMasseneingabe","Temp_Change_IKS_Kontrollfrequenz_Check","Temp_Change_IKS_Kontrollfrequenz_Soll","Temp_ErrFile","Temp_IKS_Ende_Faelligkeit","Temp_IKS_Ende_Faelligkeit_Check","Temp_IKS_IKSM","Temp_IKS_IKSM_Check","Temp_Konto_KorrKoeff_je_OrgLegal","Temp_LDAP_Account","Temp_LDAP_Gruppen","Temp_MerkmalMasseneingabe","TEMP_SAF_IKS","Temp_SessionUser_CR_Faktor","Temp_ST_CR","Temp_ST_Indikator_Import","Temp_ST_User_ADImport","Temp_STR_ISMSAnforderung_Gefaehrdung","TEMP_STR_OrgEinheit_Hierarchie_auto","Temp_User_CR_Faktor","Temp_Userdummy","Temp_UserImport","Temp_Waehrungskurse","Temp3_import","V_Anz_CR_nach_Status","V_Aus_Berechtigungsauswertung_Legal","V_Aus_Berechtigungsauswertung_Org","V_Aus_Berechtigungsauswertung_Prozess","V_Aus_BEW_Massn_Portal","V_Aus_Brutto_Netto_EingabeCurr","V_Aus_Brutto_Netto_GroupCurr","V_Aus_Checkliste_01_RO1","V_Aus_Checkliste_01_RO2","V_Aus_Checkliste_User_OrgEinheit_nach_Status","V_Aus_Fragenkatalog_Org_Legal","V_Aus_Geo_CR_je_Org_Land_Kontinent","V_Aus_Geo_Legal_CR","V_Aus_Geo_Legal_Land_Kontinent","V_Aus_Geo_Org_CR","V_Aus_Geo_Org_Land_Kontinent","V_Aus_Hierarchisch_Dummy_R","V_Aus_IKS_Administration","V_Aus_IKS_BEW_IKS_Soll_Deaktiviert","V_Aus_IKS_BEW_StatusUebersicht","V_Aus_Kategorie_CR","V_Aus_Kategorie_CR_alleKat","V_Aus_Massnahme_Ueberfaellig","V_Aus_Matrix5_MnStatus","V_Aus_Mn_Entscheidung_Bestimmung_Faktor","V_Aus_Mn_Entscheidung_Bestimmung_Faktor_Max_Wirkung","V_Aus_Mn_Entscheidung_Bestimmung_MN_Kosten","V_Aus_Mn_Entscheidung_Bestimmung_Result","V_Aus_Mn_Entscheidung_Bestimmung_Risikoklasse_1","V_Aus_Mn_Entscheidung_Bestimmung_Risikoklasse_Max","V_Aus_NN_OrgEinheit","V_Aus_NN_RO","V_Aus_Sensitivitaet","V_Aus_Sensitivitaet_nach_Status","V_Aus_STR_User_IKS_IKSM_Hierarchie_aktiv","V_Aus_TopN_Brutto_Erwartung","V_Aus_TopN_Brutto_Wirkung","V_Aus_TopN_Netto_Erwartung","V_Aus_TopN_Netto_Wirkung","V_Aus_TopN_Ziel_Erwartung","V_Aus_TopN_Ziel_Wirkung","V_Aus_Uebersicht_Liste4","V_Aus_Uebersicht_Liste4_B_Nach_Status","V_Aus_Uebersicht_Liste4_Nach_Status","V_Aus_Vertretung","V_Beispiel_Erinnerungsmail_Empfaengerkreis","V_Berechtigte_CR_ueber_Kategorie","V_Berechtigte_Massnahmen_ueber_Kategorie","V_Berechtigung_TopCR","V_Bericht_Anzahl_Indikatoren_je_CR","V_Bericht_Anzahl_Massnahmen_je_CR","V_Bericht_Neu_Bestand_Alt","V_Bericht_Neu_Bestand_Alt_1","V_Bericht_Neu_Bestand_Alt_1_geaendert_20130524","V_Bericht_Neu_Bestand_Alt_2","V_Bericht_Neu_Bestand_Alt_Statistik","V_Bericht_Neu_Bestand_Alt_Statistik_Nach_Status","V_Bericht_Seitenzahlermittlung_Berichtskommentar","V_Bericht_Seitenzahlermittlung_Berichtskommentar_1","V_Bericht_Seitenzahlermittlung_Desc_Ursache_RiskMap","V_Bericht_Seitenzahlermittlung_SzenarioBeschr_Brutto_RiskMap","V_Bericht_Seitenzahlermittlung_SzenarioBeschr_Netto_RiskMap","V_Bericht_Seitenzahlermittlung_SzenarioBeschr_Ziel_RiskMap","V_BEW_Bericht_Dokumentation","V_BEW_Bericht_Selektion","V_BEW_Berichtsvorlagen_aktiv","V_BEW_Brutto_ManagementCockpit","V_BEW_Checkliste_Antwort_mit_Bez_AktuellerDS","V_BEW_CR_Aktueller_DS","V_BEW_CR_Aktueller_DS_1","V_BEW_CR_Aktueller_DS_2","V_BEW_CR_Aktueller_DS_mit_Sprache","V_BEW_CR_Aktueller_DS_StatusPeriode","V_BEW_CR_Assetdetails","V_BEW_CR_Auswirkung_Aktueller_DS","V_BEW_CR_Auswirkung_GroupCurr","V_BEW_CR_Auswirkung_max_Zaehler","V_BEW_CR_Auswirkung_Nach_Status_1","V_BEW_CR_Auswirkung_Nach_Status_2","V_BEW_CR_Auswirkung_Nach_Status_2_GroupCurr","V_BEW_CR_Auswirkung_Org","V_BEW_CR_Auswirkung_Riskmap","V_BEW_CR_Auswirkung_Summe_GroupCurr","V_BEW_CR_Auswirkung_Wizard","V_BEW_CR_bereits_im_Plan_Liste","V_BEW_CR_bereits_im_Plan_Liste_GroupCurr","V_BEW_CR_bereits_im_Plan_Liste_GroupCurr_Nach_Status","V_BEW_CR_bereits_im_Plan_Liste_Nach_Status","V_BEW_CR_Berichtsempfaenger_AktuellerDS","V_BEW_CR_Berichtsempfaenger_Ausw","V_BEW_CR_Berichtsempfaenger_Riskmap","V_BEW_CR_Berichtsempfaenger_Wizzard","V_BEW_CR_Berichtsempfanger_Aus","V_BEW_CR_Bewertung_Group_Sz_Nebeneinander","V_BEW_CR_Bewertung_GroupEFX_Sz_Nebeneinander","V_BEW_CR_Bewertung_vorhanden","V_BEW_CR_Bewertung_vorhanden_Nach_Status","V_BEW_CR_BewertungsDS_vorhanden","V_BEW_CR_Bin_Compliance","V_BEW_CR_Bin_Compliance_Nach_Status","V_BEW_CR_Bin_ISMS","V_BEW_CR_Bin_Sensitivitaet","V_BEW_CR_Brutto_Aktueller_DS","V_BEW_CR_Brutto_AlleSzenarienNebeneinander","V_BEW_CR_Brutto_AlleSzenarienNebeneinander_Nach_Status","V_BEW_CR_Brutto_Anzahl_CR_mit_Bewertung","V_BEW_CR_Brutto_Aufgefuellt","V_BEW_CR_Brutto_Bewert","V_BEW_CR_Brutto_Bewertung_vorhanden","V_BEW_CR_Brutto_Differenzen","V_BEW_CR_Brutto_EW_AktStatusEingabeper","V_BEW_CR_Brutto_EW_alle_Szenarien","V_BEW_CR_Brutto_EW_GroupCurr","V_BEW_CR_Brutto_EW_GroupCurr_Nach_Status","V_BEW_CR_Brutto_EW_GroupCurr_OrgEinheit","V_BEW_CR_Brutto_EW_GroupCurr_OrgEinheit_dummyView","V_BEW_CR_Brutto_EW_GroupCurr_OrgEinheit_Nach_Status","V_BEW_CR_Brutto_EW_GroupCurr_OrgEinheit_Tornado","V_BEW_CR_Brutto_EW_GroupCurrEFX_Nach_Status","V_BEW_CR_Brutto_EW_nach_Status_alle_Szenarien","V_BEW_CR_Brutto_EW1","V_BEW_CR_Brutto_GroupCurr","V_BEW_CR_Brutto_GroupCurr_Nach_Status","V_BEW_CR_Brutto_GroupCurr_Wahrsch_GlobWS","V_BEW_CR_Brutto_GroupCurr_Wahrsch_GlobWS_Nach_Status","V_BEW_CR_Brutto_GroupCurrEFX","V_BEW_CR_Brutto_GroupCurrEFX_Nach_Status","V_BEW_CR_Brutto_GroupCurrEFX_Wahrsch_GlobWS","V_BEW_CR_Brutto_ID_Waehrung","V_BEW_CR_Brutto_Letzte4Perioden","V_BEW_CR_Brutto_Max_Szenario_GroupCurr","V_BEW_CR_Brutto_max_Zaehler","V_BEW_CR_Brutto_Mit_Massnahme","V_BEW_CR_Brutto_nach_Auswirkung_GroupCurr","V_BEW_CR_Brutto_nach_Massnahme_1","V_BEW_CR_Brutto_nach_Massnahme_2","V_BEW_CR_Brutto_nach_Massnahme_3_GroupCurr","V_BEW_CR_Brutto_nach_Massnahme_4_GroupCurr_EW","V_BEW_CR_Brutto_Nach_Status_1","V_BEW_CR_Brutto_Nach_Status_2","V_BEW_CR_Brutto_Nach_Status_3","V_BEW_CR_Brutto_Nach_Status_4","V_BEW_CR_Brutto_Nach_Status_4_1","V_BEW_CR_Brutto_Nach_Status_4_2","V_BEW_CR_Brutto_Nach_Status_4_3","V_BEW_CR_Brutto_Netto_Bewertung","V_BEW_CR_Brutto_Netto_GroupCurr_Nach_Status","V_BEW_CR_Brutto_Netto_GroupCurrEFX_Nach_Status","V_BEW_CR_Brutto_Netto_Matrix5_nach_Status_GroupCurr","V_BEW_CR_Brutto_Org","V_BEW_CR_Brutto_Perioden_vorh_Neu","V_BEW_CR_Brutto_Riskmap","V_BEW_CR_Brutto_Sum_EW_Glob_WS","V_BEW_CR_Brutto_Vergleich_Vorperiode_Status","V_BEW_CR_Brutto_Wizard","V_BEW_CR_Brutto_Ziel_Bewertung","V_BEW_CR_Compliance_02_Aktueller_DS","V_BEW_CR_Compliance_Aktueller_DS","V_BEW_CR_Compliance_ESG_mitBez","V_BEW_CR_Compliance_Letzte5Perioden","V_BEW_CR_Compliance_Nach_Status_1","V_BEW_CR_Compliance_Nach_Status_2","V_BEW_CR_Compliance_Nach_Status_2_Komplett","V_BEW_CR_Compliance_Nach_Status_2_mit_Bez","V_BEW_CR_Compliance_Nach_Status_2_mit_Bez_OrgLegal","V_BEW_CR_Compliance_Wizard","V_BEW_CR_Compliance_Wizard_ESG","V_BEW_CR_CRPolitik_Aktueller_DS","V_BEW_CR_CRPolitik_BEZ_Aktueller_DS","V_BEW_CR_CRPolitik_Wizard","V_BEW_CR_CRUrsache_AktuellerDS","V_BEW_CR_CRUrsache_Bez_AktuellerDS","V_BEW_CR_CRUrsache_Nach_Status_1","V_BEW_CR_CRUrsache_Nach_Status_2","V_BEW_CR_CRUrsache_Wizard","V_BEW_CR_Datto","V_BEW_CR_Datto_Aktueller_DS","V_BEW_CR_Datto_EW_alle_Szenarien","V_BEW_CR_Datto_EW_GroupCurr","V_BEW_CR_Datto_EW_GroupCurr_Nach_Status","V_BEW_CR_Datto_EW_GroupCurr_OrgEinheit","V_BEW_CR_Datto_EW_GroupCurr_OrgEinheit_Nach_Status","V_BEW_CR_Datto_EW_GroupCurr_OrgEinheit_Tornado","V_BEW_CR_Datto_EW_GroupCurrEFX_Nach_Status","V_BEW_CR_Datto_EW_nach_Status_alle_Szenarien","V_BEW_CR_Datto_GroupCurr","V_BEW_CR_Datto_GroupCurr_Nach_Status","V_BEW_CR_Datto_GroupCurr_Wahrsch_GlobWS","V_BEW_CR_Datto_GroupCurrEFX","V_BEW_CR_Datto_GroupCurrEFX_Nach_Status","V_BEW_CR_Datto_mit_Brutto","V_BEW_CR_Datto_mit_Netto","V_BEW_CR_Datto_Nach_Status_1","V_BEW_CR_Datto_Nach_Status_2","V_BEW_CR_Datto_Nach_Status_2_mit_Netto","V_BEW_CR_Datto_Nach_Status_3","V_BEW_CR_Datto_Nach_Status_4","V_BEW_CR_Datto_Nach_Status_4_1","V_BEW_CR_Datto_Nach_Status_4_2","V_BEW_CR_Datto_Nach_Status_4_3","V_BEW_CR_Datto_Org","V_BEW_CR_Datto_Wizard","V_BEW_CR_eingetreten","V_BEW_CR_ESG_mit_Bez_nach_Status","V_BEW_CR_ESG_Nach_Status_2_mit_Bez_OrgLegal","V_BEW_CR_GlobWahrscheinlichkeit_Aktueller_DS","V_BEW_CR_GlobWahrscheinlichkeit_Eingabekonto","V_BEW_CR_GlobWahrscheinlichkeit_Nach_Status_1","V_BEW_CR_GlobWahrscheinlichkeit_Nach_Status_2","V_BEW_CR_GlobWahrscheinlichkeit_nach_Status_mit_Bez","V_BEW_CR_GlobWahrscheinlichkeit_nM","V_BEW_CR_GlobWS_mitBez_lt_ST_WS","V_BEW_CR_GlobWS_vorhanden","V_BEW_CR_Indikator_2_Aktueller_DS","V_BEW_CR_Indikator_2_Alle_GroupCurr","V_BEW_CR_Indikator_2_Alle_GroupCurr_intern","V_BEW_CR_Indikator_2_Ausw","V_BEW_CR_Indikator_2_GroupCurr","V_BEW_CR_Indikator_2_GroupCurr_intern","V_BEW_CR_Indikator_2_intern","V_BEW_CR_Indikator_2_Riskmap","V_BEW_CR_Indikator_2_Riskmap_ohne_Umrechnung","V_BEW_CR_Indikator_2_Wizard","V_BEW_CR_Indikator_2_Wizard_ohne_Umrechnung","V_BEW_CR_Indikator_2_zeitlicher_Verlauf","V_BEW_CR_Indikator_2_zeitlicher_Verlauf_HV_1","V_BEW_CR_Indikator_2_zeitlicher_Verlauf_HV_2","V_BEW_CR_Indikator_Aktueller_DS","V_BEW_CR_Indikator_Ausw","V_BEW_CR_Indikator_mit_Bez","V_BEW_CR_Indikator_Nach_Status_1","V_BEW_CR_Indikator_Nach_Status_2","V_BEW_CR_Indikator_Riskmap","V_BEW_CR_Indikator_Riskmap_Ind","V_BEW_CR_Indikator_Wizard","V_BEW_CR_Indikator_Wizard_Ind","V_BEW_CR_Indikator_zeitlicher_Verlauf","V_BEW_CR_Indikator_zeitlicher_Verlauf_HV_1_Ind","V_BEW_CR_Indikator_zeitlicher_Verlauf_HV_2_Ind","V_BEW_CR_Indikator_zeitlicher_Verlauf_Ind","V_BEW_CR_Indikator_Zuordnungen_Alle","V_BEW_CR_Kommentar_Aktueller_DS","V_BEW_CR_Kommentar_Aktueller_DS_AUSW","V_BEW_CR_Kommentar_Nach_Status","V_BEW_CR_Kommentar_Nach_Status_1","V_BEW_CR_Kommentar_Nach_Status_2","V_BEW_CR_Kommentar_Nach_Status_2_Mit_Bez","V_BEW_CR_Kommentar_Nach_Status_AUSW","V_BEW_CR_Kommentar_Wizard","V_BEW_CR_Kommentare_Nach_Status","V_BEW_CR_Konto","V_BEW_CR_Konto_Aktueller_DS","V_BEW_CR_Konto_Nach_Status_1","V_BEW_CR_Konto_Nach_Status_2","V_BEW_CR_Konto_Wizard","V_BEW_CR_Korrelation_Aktueller_DS","V_BEW_CR_Korrelation_aus_Kursbasis_nach_Status_2","V_BEW_CR_Korrelation_Nach_Status_2","V_BEW_CR_Korrelation_UNION_Nach_Status_2","V_BEW_CR_Massnahme_Aktueller_DS","V_BEW_CR_Massnahme_Ausw","V_BEW_CR_Massnahme_GroupCurr","V_BEW_CR_Massnahme_GroupCurr_Kosten_Wirkung","V_BEW_CR_Massnahme_GroupCurr_Nach_Status","V_BEW_CR_Massnahme_GroupCurrEFX_Nach_Status","V_BEW_CR_Massnahme_MassnStatus_Aktueller_DS","V_BEW_CR_Massnahme_mit_RO","V_BEW_CR_Massnahme_MNGruppe_MNKlasse_Bez","V_BEW_CR_Massnahme_Nach_Status_1","V_BEW_CR_Massnahme_Nach_Status_2","V_BEW_CR_Massnahme_Nach_Status_Ausw","V_BEW_CR_Massnahme_NurZuordOhnePerioden","V_BEW_CR_Massnahme_ORG","V_BEW_CR_Massnahme_Riskmap","V_BEW_CR_Massnahme_Status_Aktiv","V_BEW_CR_Massnahme_uefae_ORG","V_BEW_CR_Massnahme_Wirkung_Aktueller_DS","V_BEW_CR_Massnahme_Wizard","V_BEW_CR_Massnahme_Wizard_neue","V_BEW_CR_MassnWirksamkeit","V_BEW_CR_MassnWirksamkeit_mitBez","V_BEW_CR_MassnWirksamkeit_Nach_Status","V_BEW_CR_mit_ROName","V_BEW_CR_MN_Aktueller_DS","V_BEW_CR_MN_Aktueller_DS_mit_Bez","V_BEW_CR_Nach_Status_1","V_BEW_CR_Nach_Status_2","V_BEW_CR_Nach_Status_3","V_BEW_CR_Netto_Aktueller_DS","V_BEW_CR_Netto_AlleSzenarienNebeneinander","V_BEW_CR_Netto_AlleSzenarienNebeneinander_Nach_Status","V_BEW_CR_Netto_Anzahl_CR_mit_Bewertung","V_BEW_CR_Netto_Aufgefuellt","V_BEW_CR_Netto_Bewert","V_BEW_CR_Netto_Bewertung_vorhanden","V_BEW_CR_Netto_EW_AktStatusEingabeper","V_BEW_CR_Netto_EW_alle_Szenarien","V_BEW_CR_Netto_EW_GroupCurr","V_BEW_CR_Netto_EW_GroupCurr_Nach_Status","V_BEW_CR_Netto_EW_GroupCurr_OrgEinheit","V_BEW_CR_Netto_EW_GroupCurr_OrgEinheit_Nach_Status","V_BEW_CR_Netto_EW_GroupCurr_OrgEinheit_Tornado","V_BEW_CR_Netto_EW_GroupCurrEFX_Nach_Status","V_BEW_CR_Netto_EW_nach_Status_alle_Szenarien","V_BEW_CR_Netto_GroupCurr","V_BEW_CR_Netto_GroupCurr_Nach_Status","V_BEW_CR_Netto_GroupCurr_Wahrsch_GlobWS","V_BEW_CR_Netto_GroupCurr_Wahrsch_GlobWS_Nach_Status","V_BEW_CR_Netto_GroupCurrEFX","V_BEW_CR_Netto_GroupCurrEFX_Nach_Status","V_BEW_CR_Netto_GroupCurrEFX_Wahrsch_GlobWS","V_BEW_CR_Netto_ID_Waehrung","V_BEW_CR_Netto_Max_Szenario_GroupCurr","V_BEW_CR_Netto_max_Zaehler","V_BEW_CR_Netto_nach_Auswirkung_GroupCurr","V_BEW_CR_Netto_Nach_Status_1","V_BEW_CR_Netto_Nach_Status_2","V_BEW_CR_Netto_Nach_Status_3","V_BEW_CR_Netto_Nach_Status_4","V_BEW_CR_Netto_Nach_Status_4_1","V_BEW_CR_Netto_Nach_Status_4_2","V_BEW_CR_Netto_Nach_Status_4_3","V_BEW_CR_Netto_Org","V_BEW_CR_Netto_Perioden_vorh_Neu","V_BEW_CR_Netto_Riskmap","V_BEW_CR_Netto_Wizard","V_BEW_CR_Prozessdetails","V_BEW_CR_QualBewertung_RA_Aktueller_DS","V_BEW_CR_QualBewertung_REG_Aktueller_DS","V_BEW_CR_QualGlobWS_Aktueller_DS","V_BEW_CR_QualGlobWS_Nach_Status_1","V_BEW_CR_QualGlobWS_Nach_Status_2","V_BEW_CR_QuantilSensitivitaeten","V_BEW_CR_QuantilSensitivitaeten_nach_Status","V_BEW_CR_RiskMap","V_BEW_CR_RiskMap_Nach_Status","V_BEW_CR_RiskMap10_BruttoNetto_GroupC_nach_Status","V_BEW_CR_RiskMap10_BruttoNettoAuswirk_GroupC_nach_Status","V_BEW_CR_RiskMap10_BruttoNettoDatto_nach_Status","V_BEW_CR_RiskMap10_Massnahme_GroupC_nach_Status","V_BEW_CR_RiskMap10_nach_Status","V_BEW_CR_RO_RM","V_BEW_CR_Sprache_Wizard","V_BEW_CR_Status","V_BEW_CR_Status_akt_DS_AktPer_Vorletz_HistPer","V_BEW_CR_Status_akt_DS_AktPer_Vorletz_HistPer_mit_Bez","V_BEW_CR_Status_akt_DS_mit_Bez","V_BEW_CR_Status_AktiveCRallerPerioden","V_BEW_CR_Status_Aktueller_DS","V_BEW_CR_Status_Aktueller_DS_AktPeriode","V_BEW_CR_Status_alle_mit_Bez","V_BEW_CR_Status_Bestand_Neu","V_BEW_CR_Status_Bez_Farbe","V_BEW_CR_Status_Bez_Farbe_Ausw_Status","V_BEW_CR_Status_Bez_Farbe_Ausw_Status_RO","V_BEW_CR_Status_Deaktivierte_CR","V_BEW_CR_Status_Ersterfassung","V_BEW_CR_Status_irgendwann_widersprochen","V_BEW_CR_Status_KommentarLog","V_BEW_CR_Status_Letzter_nicht_akt_Periode","V_BEW_CR_Status_Letzter_nicht_akt_Periode_Status","V_BEW_CR_Status_mit_OrgBez_Aktueller_DS","V_BEW_CR_Status_Nicht_in_akt_Periode","V_BEW_CR_Status_Riskmap","V_BEW_CR_Status_User","V_BEW_CR_Status_vorletzter_Zaehler_je_Periode","V_BEW_CR_STR_CRKat_CR_von_Parent","V_BEW_CR_STR_Legal_CR_von_Parent","V_BEW_CR_STR_Org_CR_von_Parent","V_BEW_CR_STR_Prozess_CR_von_Parent","V_BEW_CR_Ursachenkommentar_Vorperiode","V_BEW_CR_User","V_BEW_CR_Verteilung_Aktueller_DS","V_BEW_CR_Verteilung_Distinct","V_BEW_CR_Verteilung_GroupCurr","V_BEW_CR_Verteilung_GroupCurr_mit_Bez","V_BEW_CR_Verteilung_GroupCurr_mit_Bez_Nach_Status","V_BEW_CR_Verteilung_GroupCurr_Nach_Status","V_BEW_CR_Verteilung_GroupCurrEFX_Nach_Status","V_BEW_CR_Verteilung_Nach_Status_1","V_BEW_CR_Verteilung_Nach_Status_2","V_BEW_CR_Verteilung_Riskmap","V_BEW_CR_Wizard","V_BEW_CR_Ziel_Aktueller_DS","V_BEW_CR_Ziel_AlleSzenarienNebeneinander","V_BEW_CR_Ziel_AlleSzenarienNebeneinander_Nach_Status","V_BEW_CR_Ziel_Anzahl_CR_mit_Bewertung","V_BEW_CR_Ziel_Aufgefuellt","V_BEW_CR_Ziel_Bewert","V_BEW_CR_Ziel_Bewertung_vorhanden","V_BEW_CR_Ziel_EW_AktStatusEingabeper","V_BEW_CR_Ziel_EW_alle_Szenarien","V_BEW_CR_Ziel_EW_GroupCurr","V_BEW_CR_Ziel_EW_GroupCurr_Nach_Status","V_BEW_CR_Ziel_EW_GroupCurr_OrgEinheit","V_BEW_CR_Ziel_EW_GroupCurr_OrgEinheit_Nach_Status","V_BEW_CR_Ziel_EW_GroupCurr_OrgEinheit_Tornado","V_BEW_CR_Ziel_EW_GroupCurrEFX_Nach_Status","V_BEW_CR_Ziel_EW_nach_Status_alle_Szenarien","V_BEW_CR_Ziel_GroupCurr","V_BEW_CR_Ziel_GroupCurr_Nach_Status","V_BEW_CR_Ziel_GroupCurr_Wahrsch_GlobWS","V_BEW_CR_Ziel_GroupCurr_Wahrsch_GlobWS_Nach_Status","V_BEW_CR_Ziel_GroupCurrEFX","V_BEW_CR_Ziel_GroupCurrEFX_Nach_Status","V_BEW_CR_Ziel_GroupCurrEFX_Wahrsch_GlobWS","V_BEW_CR_Ziel_ID_Waehrung","V_BEW_CR_Ziel_Max_Szenario_GroupCurr","V_BEW_CR_Ziel_max_Zaehler","V_BEW_CR_Ziel_nach_Auswirkung_GroupCurr","V_BEW_CR_Ziel_Nach_Status_1","V_BEW_CR_Ziel_Nach_Status_2","V_BEW_CR_Ziel_Nach_Status_3","V_BEW_CR_Ziel_Nach_Status_4","V_BEW_CR_Ziel_Nach_Status_4_1","V_BEW_CR_Ziel_Nach_Status_4_2","V_BEW_CR_Ziel_Nach_Status_4_3","V_BEW_CR_Ziel_Org","V_BEW_CR_Ziel_Perioden_vorh_Neu","V_BEW_CR_Ziel_Riskmap","V_BEW_CR_Ziel_Wizard","V_BEW_DSFA_Entscheidung","V_BEW_DSFA_Vorbereitung","V_BEW_DSSchutzbedarf","V_BEW_DSVerfahren","V_BEW_DSVerfahren_Datenkategorie","V_BEW_DSVerfahren_External_Funktion_Zugriff","V_BEW_DSVerfahren_Land","V_BEW_DSVerfahren_Massnahmen","V_BEW_DSVerfahren_Massnahmen_GroupCurr","V_BEW_DSVerfahren_OrgLegal_Funktion_Zugriff","V_BEW_Einheit_Finanz_Aktuell","V_BEW_Einheit_Finanz_aktuell_GroupCurr","V_BEW_Einheit_Finanz_Default_fuer_Wirkungsgrenzen","V_BEW_Einheit_Finanz_GroupCurr_Nach_Status","V_BEW_Einheit_Finanz_LetzDS","V_BEW_Einheit_Finanz_Nach_Status_1","V_BEW_Einheit_Finanz_Nach_Status_2","V_BEW_Einheit_Finanz_Original_brauchbar_Wirkungsgrenze","V_BEW_Einheit_Finanz_Verwendbar_Wirkung","V_BEW_Emails","V_BEW_Emails_Replace","V_BEW_Emails_Replace_BewertungBrutto","V_BEW_Evaluation_Fragen_Schadenspotentiale","V_BEW_Evaluation_Liste_Fragenkatalog","V_BEW_Event","V_BEW_Fragenkatalog_AuswahlUser","V_BEW_Fragenkatalog_User","V_BEW_IKS_Check_AktuellerDS","V_BEW_IKS_Check_Auswertung","V_BEW_IKS_Check_Auswertung_2","V_BEW_IKS_Check_Auswertung_Aktiv","V_BEW_IKS_Check_Auswertung_mit_Bez","V_BEW_IKS_Check_Auswertung_mit_Bez_letzterDS","V_BEW_IKS_Check_Deaktiv_Einheit","V_BEW_IKS_Check_Deaktiv_Einheit_mit_Bez","V_BEW_IKS_Check_Eingabe","V_BEW_IKS_Check_Initial_Verantwortlich","V_BEW_IKS_Check_MaxZaehler","V_BEW_IKS_Check_Statuskommentar_EbeneIKSM_1und2","V_BEW_IKS_Check_Verantwortlich_nach_Faelligkeit","V_BEW_IKS_Freigaben_Aktueller_DS","V_BEW_IKS_Ist_Aktueller_DS","V_BEW_IKS_Kontrolle_Kommentar","V_BEW_IKS_Kontrolle_nicht_zugeordnet","V_BEW_IKS_KontrolleCheck_nicht_zugeordnet","V_BEW_IKS_Massnahme_MassnStatus_Aktueller_DS","V_BEW_IKS_Soll_Akt_mitHist","V_BEW_IKS_Soll_AktDS_mit_Faelligkeit_akt","V_BEW_IKS_Soll_Aktueller_DS_mit_Bez","V_BEW_IKS_Soll_Aktueller_DS_mit_Bez_mit_CR","V_BEW_IKS_Soll_Aktueller_DS_mit_Bez_und_ID_Massnahme","V_BEW_IKS_Soll_AktuellerDS","V_BEW_IKS_Soll_Deaktiv_Einheit","V_BEW_IKS_Soll_Distinct","V_BEW_IKS_Soll_gueltige","V_BEW_IKS_Soll_Historische_ID_IKS_Umsetzung","V_BEW_IKS_Soll_Inaktive","V_BEW_IKS_Soll_letzterDS","V_BEW_IKS_Soll_letzterDS_mit_Bez","V_BEW_IKS_Soll_MaxZaehler","V_BEW_IKS_Soll_mit_Bez","V_BEW_IKS_Soll_mit_Bez_Hist","V_BEW_IKS_Soll_mit_Bez_letzterDS","V_BEW_IKS_Soll_Status_Deaktiv_Einheit_mit_Bez","V_BEW_IKS_Soll_Verwaist","V_BEW_IKS_Status_Akt_Hist","V_BEW_IKS_Status_Aktueller_DS","V_BEW_IKS_Status_Check_Deaktiviert","V_BEW_IKS_Status_Check_Deaktiviert_mit_Bez","V_BEW_IKS_Status_Deaktiv_Einheit","V_BEW_IKS_Status_Initial_Verantwortlich","V_BEW_IKS_Status_Ist_Aktueller_DS","V_BEW_IKS_Status_letzterDS","V_BEW_IKS_Status_MaxEndeFaelligkeit","V_BEW_IKS_Status_MaxZaehler","V_BEW_IKS_Status_mit_MaxZaehler_je_UmsetzFaellig","V_BEW_IKS_Status_mit_unbearbeitet_Akt","V_BEW_IKS_Status_mit_unbearbeitet_Akt_DS","V_BEW_IKS_Status_mit_unbearbeitet_Akt_DS_mit_Bez","V_BEW_IKS_Status_mit_unbearbeitet_Alle","V_BEW_IKS_Status_Protokoll","V_BEW_IKS_Status_ueberfaellig","V_BEW_IKS_StatusCheckUmsetzung","V_BEW_Indikator_Aktueller_DS","V_BEW_Indikator_Alle_GroupCurr","V_BEW_Indikator_Alle_GroupCurr_Aktueller_DS","V_BEW_Indikator_Alle_GroupCurr_Intern","V_BEW_Indikator_Ausw","V_BEW_Indikator_GroupCurr","V_BEW_Indikator_GroupCurr_intern","V_BEW_Indikator_Max_Lieferdatum","V_BEW_Indikator_Max_Zaehler","V_BEW_Indikator_relevant","V_BEW_ISMS_Asset_Bewertung","V_BEW_Konto_korr","V_BEW_Konto_korr_GroupCurr","V_BEW_Konto_korr_GroupCurr_AktuellerDS_mit Bez","V_BEW_Konto_Verhaeltnis_1","V_BEW_Kurse_Letzte_Lieferung","V_BEW_Kurse_Plandaten_Kennzahlen_Einheit_mit_Bez","V_BEW_Kurse_Plandaten_Nach_Status_1","V_BEW_Kurse_Plandaten_Nach_Status_2","V_BEW_Kurse_Plandaten_Nach_Status_2_mit_Bez","V_BEW_Kurse_Plandaten_relevant","V_BEW_Kurse_Plandaten_relevant_1","V_BEW_Kurse_Plandaten_relevant_mit_Bez","V_BEW_Kurse_relevant","V_BEW_Massnahme_MassnStatus_Aktueller_DS","V_BEW_Massnahme_MassnStatus_Historie","V_BEW_MassnStatus","V_BEW_MassnStatus_AktDS_NettoBerechnung","V_BEW_MassnStatus_Bez_AktuellerDS","V_BEW_MassnStatus_Nach_Status_1","V_BEW_MassnStatus_Nach_Status_2","V_BEW_MassnStatus_TageSeitLetzterStatusaenderung","V_BEW_MassnWirksamkeit","V_BEW_MassnWirksamkeit_Nach_Status","V_BEW_Org_CR_Deaktiv","V_BEW_ProzedurLog","V_BEW_Schadenspotential_ToDo_Letzter_Eintrag","V_BEW_Schadenspotential_ToDo_Wizard","V_BEW_Sessionlog_auswertung","V_BEW_Sessionlog_Auswertung_MonateZuAnzSessions","V_BEW_Sessionlog_Auswertung_TageZuAnzahlSessions","V_BEW_Sessionlog_Auswertung_TageZuSessionID","V_BEW_Sessionlog_stundenweise","V_BEW_ST_Fragenkatalog_Gesamt_AuswahlUser","V_BEW_Waehrung_aktuell_in_Vergangenheit","V_BEW_Waehrung_aktuell_in_Zukunft","V_BEW_Waehrung_aktuell_Result","V_BEW_Waehrung_ID_User_inKonzW","V_BEW_Waehrung_ID_User_inKonzW_1","V_BEW_Waehrung_Letze_Lieferung_MaxStichtag","V_BEW_Waehrungskurse","V_BEW_Waehrungskurse_1","V_BEW_Waehrungskurse_2","V_BEW_Waehrungskurse_Befuellung","V_BEW_Waehrungskurse_Kurse_von_MaxStichtag","V_BEW_Waehrungskurse_Letzte_Lieferung","V_BEW_Waehrungskurse_MaxStichtag","V_BEW_Waehrungskurse_relevant","V_BreakDown_BEW_CR_Brutto_Auffuellen_EC","V_BreakDown_BEW_CR_Brutto_Auffuellen_Komplett","V_BreakDown_BEW_CR_Brutto_Auffuellen_WC","V_BreakDown_BEW_CR_Brutto_Delta_1_Fehlende","V_BreakDown_BEW_CR_Brutto_Delta_1_IST","V_BreakDown_BEW_CR_Brutto_Delta_2_Kein_Wert_C","V_BreakDown_BEW_CR_Brutto_Delta_2_Kein_Wert_R","V_BreakDown_BEW_CR_Brutto_Fehlende_Komplett","V_BreakDown_BEW_CR_Brutto_SollSzenarien","V_BreakDown_BEW_CR_Netto_Auffuellen_EC","V_BreakDown_BEW_CR_Netto_Auffuellen_Komplett","V_BreakDown_BEW_CR_Netto_Auffuellen_WC","V_BreakDown_BEW_CR_Netto_Delta_1_Fehlende","V_BreakDown_BEW_CR_Netto_Delta_1_IST","V_BreakDown_BEW_CR_Netto_Delta_2_Kein_Wert_C","V_BreakDown_BEW_CR_Netto_Delta_2_Kein_Wert_R","V_BreakDown_BEW_CR_Netto_Fehlende_Komplett","V_BreakDown_BEW_CR_Netto_SollSzenarien","V_BreakDown_BEW_CR_Ziel_Auffuellen_EC","V_BreakDown_BEW_CR_Ziel_Auffuellen_Komplett","V_BreakDown_BEW_CR_Ziel_Auffuellen_WC","V_BreakDown_BEW_CR_Ziel_Delta_1_Fehlende","V_BreakDown_BEW_CR_Ziel_Delta_1_IST","V_BreakDown_BEW_CR_Ziel_Delta_2_Kein_Wert_C","V_BreakDown_BEW_CR_Ziel_Delta_2_Kein_Wert_R","V_BreakDown_BEW_CR_Ziel_Fehlende_Komplett","V_BreakDown_BEW_CR_Ziel_SollSzenarien","V_Compliance_Export","V_CR_MaxMoeglich_Cross","V_CR_Nachrichtenempfaenger","V_Datum_Erinnerungsmail_IKS","V_Datum_Erinnerungsmail_RM","V_E_Mail_Ermahnungsmail_Ausschluss","V_E_Mail_Ermahnungsmail_RO","V_E_Mail_MassnahmenAblauf_1","V_E_Mail_MassnahmenAblauf_2","V_E_Mail_MassnahmenAblauf_3","V_E_Mail_MassnahmenAblauf_4_BEW_Event","V_E_Mail_MassnahmenAblauf_Ausschluss","V_E_Mail_MassnahmenDeadline_1","V_E_Mail_MassnahmenDeadline_2","V_E_Mail_MassnahmenDeadline_3","V_E_Mail_MassnahmenDeadline_4_BEW_Event","V_E_Mail_MassnahmenDeadline_Ausschluss","V_E_Mail_Periodenende_Warnung","V_E-Mail_Freigabe_deaktivieren","V_E-Mail_Freigabe_widersprochen","V_E-Mail_Newsletter","V_E-Mail_WNWebCast","V_FehlerDS_IKS","V_FreigabeCheck__Gesamt","V_FreigabeCheck_Berichtsempfaenger","V_FreigabeCheck_Beschreibung_Default","V_FreigabeCheck_BEW_CR","V_FreigabeCheck_BEW_CR_CRUrsache","V_FreigabeCheck_Brutto_vh_NachCRArt","V_FreigabeCheck_Brutto_VorPerCheck","V_FreigabeCheck_Brutto_VorPerCheck_1","V_FreigabeCheck_Brutto_VorPerCheck_2","V_FreigabeCheck_BruttoBewertung","V_FreigabeCheck_BruttoBewertung_Akt","V_FreigabeCheck_BruttoBewertung_Akt_IDSzen","V_FreigabeCheck_BruttoBewertung_EK","V_FreigabeCheck_BruttoBewertung_VorPerCheck","V_FreigabeCheck_GeplMassnahme","V_FreigabeCheck_Indikator","V_FreigabeCheck_Kommentar","V_FreigabeCheck_Kommentar_Einzeln_Brutto","V_FreigabeCheck_Kommentar_Einzeln_Brutto_Projekt","V_FreigabeCheck_Kommentar_Einzeln_Datto","V_FreigabeCheck_Kommentar_Einzeln_Netto","V_FreigabeCheck_Kommentar_Einzeln_Netto_Projekt","V_FreigabeCheck_Kommentar_Einzeln_Ziel","V_FreigabeCheck_Kommentar_Einzeln_Ziel_Projekt","V_FreigabeCheck_LaufMassnahme","V_FreigabeCheck_LaufMassnahmeCompliance_SvC_LoC","V_FreigabeCheck_LaufMassnahmeStrategie","V_FreigabeCheck_Massnahme_Pflichtfelder","V_FreigabeCheck_Massnahme_Status","V_FreigabeCheck_MaxMoeglich_ID_CR_ID_Szenario_Gueltig_Periode","V_FreigabeCheck_MaxMoeglich_ID_CR_ID_Szenario_Gueltig_Periode_EK","V_FreigabeCheck_Netto_fehlt","V_FreigabeCheck_Netto_groesser_Brutto","V_FreigabeCheck_Netto_vh_NachCRArt","V_FreigabeCheck_Netto_VorPerCheck","V_FreigabeCheck_Netto_VorPerCheck_1","V_FreigabeCheck_Netto_VorPerCheck_2","V_FreigabeCheck_NettoBewertung","V_FreigabeCheck_NettoBewertung_Akt","V_FreigabeCheck_NettoBewertung_Akt_IDSzen","V_FreigabeCheck_NettoBewertung_EK","V_FreigabeCheck_OptionaleKommentar","V_FreigabeCheck_Rueckstellung","V_FreigabeCheck_Ziel_fehlt","V_FreigabeCheck_Ziel_groesser_Brutto","V_FreigabeCheck_Ziel_vh_NachCRArt","V_FreigabeCheck_Ziel_VorPerCheck","V_FreigabeCheck_Ziel_VorPerCheck_1","V_FreigabeCheck_Ziel_VorPerCheck_2","V_FreigabeCheck_ZielBewertung","V_FreigabeCheck_ZielBewertung_Akt","V_FreigabeCheck_ZielBewertung_Akt_IDSzen","V_FreigabeCheck_ZielBewertung_EK","V_gruppiert_BEW_CR_Auswirkung","V_gruppiert_BEW_CR_Brutto","V_gruppiert_BEW_CR_Netto","V_gruppiert_BEW_CR_Ziel","V_Gueltig_Periode_ALL","V_ID_CR_Letzte_Aenderung","V_ID_CR_Letzte_Aenderung_1","V_ID_CR_Letzte_Aenderung_2","V_ID_CR_Letzte_Aenderung_3","V_ID_CR_mit_Perioden_Brutto_Netto_Auswirkung","V_ID_CR_mit_Perioden_Brutto_Netto_Auswirkung_Nach_Status","V_ID_CR_mit_Perioden_BruttoNettoAuswirk","V_ID_CR_RM_noch_zur_Vorlage","V_IKS_ID_IKS_Umsetzung_Uebertrag","V_IKS_STR_Check_CR_Bez","V_IKS_STR_Check_Massn_Bez","V_IKS_Temp_Ende_Faelligkeit_Alle","V_IKS_Unterschied_Vorgabe_Soll","V_IKSM_Find","V_IKSM_Find_1","V_IKSM_Find_2","V_IKSM_Vertretung","V_IKSManager_Auswaehlbar_aktiv","V_IKSUser_Auswaehlbar_aktiv","V_IND_ALPLA_ExcelExport","V_IND_Berechtigungsfilter","V_IND_Bericht_Basis","V_IND_fuer_MassnEffekt","V_IND_Glock_MnVAmitOffenenMn","V_IND_Glock_NichtAbgeschlosseneThemen","V_IND_GMH_Excelexport","V_IND_GSI_Abb3_TimeLag","V_IND_Hensoldt_Brutto_fuer_RueckstCheck","V_IND_Hensoldt_Brutto_fuer_RueckstCheck_mitWirkung","V_IND_Hensoldt_Brutto_fuer_RueckstCheck_Nach_Status","V_IND_Hensoldt_Brutto_fuer_RueckstCheck_Nach_Status_mitWirkung","V_IND_Hensoldt_Freigabecheck_BruttoBewertung","V_IND_Hensoldt_Netto_fuer_RueckstCheck","V_IND_Hensoldt_Netto_fuer_RueckstCheck_mitWirkung","V_IND_Hensoldt_Netto_fuer_RueckstCheck_Nach_Status","V_IND_Hensoldt_Netto_fuer_RueckstCheck_Nach_Status_mitWirkung","V_IND_Hensoldt_RueckstCheck","V_IND_Lanxess_ExcelExport","V_IND_Lanxess_ExcelExport_ohne_Bewertung","V_IND_Lanxess_ExcelExport_ZH_2_Massnahmen","V_IND_Lanxess_ExcelExport_ZH_Massnahmen","V_IND_Lanxess_ExcelExport_ZH_Themen","V_IND_Lanxess_ExcelExport_ZH_Verteilung","V_IND_Lanxess_FreigabeCheck_BEW_CR_Freitext","V_IND_Lanxess_Freigabecheck_FehlendeNetto_Sensitivitaet","V_IND_Lanxess_Freigabecheck_Netto_groesser_Brutto","V_IND_Lanxess_FreigabeCheck_NettoGroesser_Brutto_Sensitivitaet","V_IND_Lanxess_FreigabeCheck_SzenarioBewertung_Brutto","V_IND_Lanxess_FreigabeCheck_SzenarioBewertung_Netto","V_IND_MAXON_CRKategorie_CR_Massnahme","V_IND_MuB_Auswertung_01","V_IND_MuB_Auswertung_02","V_IND_NETZSCH_BEW_CR_Brutto_EW_GroupCurr_OrgEinheit","V_IND_NETZSCH_BEW_CR_Netto_EW_GroupCurr_OrgEinheit","V_IND_NETZSCH_Risikostatistik_Antwort","V_IND_PE_BEW_CR_Status_Erstidentifikation","V_IND_PE_BruttoSumWirk_BC","V_IND_PE_BruttoSumWirk_EC","V_IND_PE_BruttoSumWirk_WC","V_IND_PE_Erwartungswert","V_IND_PE_Erwartungswert_Brutto","V_IND_PE_Erwartungswert_Netto","V_IND_PE_Excel_Export","V_IND_PE_GlobWSAVG","V_IND_PE_NettoSumWirk_BC","V_IND_PE_NettoSumWirk_EC","V_IND_PE_NettoSumWirk_WC","V_IND_PE_OrgBezeichnung","V_IND_PEL_Excel_Export_Ueberschrift","V_IND_RollenZusatzBerechtigung","V_IND_SAF_IKS_Check_NotEffective","V_IND_Salzg_Berechtigungslimit_User","V_IND_Salzgitter_Bewertung","V_Indikator_und_2_Letzter_Eintrag","V_Indikator_und_2_Letzter_Eintrag_mit_CR","V_Indikatormail_gelb","V_Indikatormail_rot","V_ISMS_Baustein_Anforderung_Gefaehrdung","V_ISMS_FehlendeAnforderungen","V_ISMS_Gefaehrdung_Massnahme","V_KonsistenzCheck_Bin_AktuellerDS","V_KonsistenzCheck_BruttoNetto_geloescht","V_KonsistenzCheck_BruttoZiel_geloescht","V_Konsistenzcheck_Doppelte_CRTitel","V_Konsistenzcheck_Doppelte_MNTitel","V_Konsistenzcheck_GlobWS","V_Konsistenzcheck_GlobWS_Stammdaten","V_Konsistenzcheck_IKS","V_Konsistenzcheck_IKS_BEW_IKS_Status_BinAkt_DS","V_Konsistenzcheck_IKS_IKSM","V_Konsistenzcheck_IKS_IKSM_Ausw","V_Konsistenzcheck_IKS_MehrfachIdent_Soll","V_Konsistenzcheck_Summe_WS_Brutto","V_Konsistenzcheck_Summe_WS_Netto","V_Konsistenzcheck_Summe_WS_Ziel","V_KonsistenzCheck_TopKnotenZuordnung_fehlt","V_KonsistenzCheck_VerschiedeneVerteilfkt_BN","V_Kontinent_Land","V_Kontinent_Land_OrgLegal","V_Konzernwaehrung","V_Letzer_Lauf_IndiMail","V_Maskentitelabgleich","V_Massnahmen_Fortschreiben_Statusabh","V_Massnahmen_Fortschreiben_Statusabh_1","V_Massnahmen_Fortschreiben_Statusabh_2","V_Massnahmen_Fortschreiben_Statusabh_3","V_Massnahmeneff_1","V_Massnahmeneff_1_1","V_MassnEffekt__je_MN","V_MassnEffekt_1","V_MassnEffekt_2","V_MassnEffekt_3","V_MassnEffekt_4","V_MassnEffekt_5","V_MassnEffekt_6","V_MassnEffekt_7","V_MassnEffekt_aM_je_Szenario","V_MassnEffekt_Erwartungswert","V_Parameterplausibilitaet","V_Pruefung_Datumsbereich_StatusPeriode","V_Riskmanager_Auswaehlbar_aktiv","V_RM_Vertretung","V_RO_RM_Beziehung_ungueltig","V_Schadenspot_Prozess_Kontrolle","V_Selektion_ID_Indikator_Zaehlerermittlung","V_Selektion_ID_Massnahme_Zaehlerermittlung","V_Selektion_ID_Rest_Zaehlerermittlung","V_ST_Asset_aktive_Aktueller_DS","V_ST_Asset_Aktueller_DS","V_ST_Asset_Neu_Zuordenbare","V_ST_Asset_Neu_Zuordenbare_1","V_ST_Asset_und_ID_mit_Bez_AktuellerDS","V_ST_Asset_untersteEbene","V_ST_Bericht_mgl_CR","V_ST_Berichtsseite_mit_ID","V_ST_Berichtsseiten_Union","V_ST_Checkliste_Frage_ID","V_ST_Checkliste_Katalog_ID","V_ST_Compliance_L1_Aktueller_DS","V_ST_Compliance_L2_Aktueller_DS","V_ST_Compliance_L3_Aktueller_DS","V_ST_Compliance_L4_Aktueller_DS","V_ST_Compliance_L5_Aktueller_DS","V_ST_Compliance_L6_Aktueller_DS","V_ST_CR_Aktueller_DS","V_ST_CR_Aktueller_DS_Aktuelle_StatusPeriode","V_ST_CR_BEW_CR_AktDS","V_ST_CR_BEW_CR_mit_Bez","V_ST_CR_BEW_CR_mit_Bez_Gueltig_Periode","V_ST_CR_BEW_CR_mit_Bez_nach_Status","V_ST_CR_BEW_CR_mit_Bez_StartPortal","V_ST_CR_BEW_CR_mit_Bez_SUCHE","V_ST_CR_BEW_CR_Nach_Status","V_ST_CR_HinweisUndKommentare","V_ST_CR_ID_CR_mit_Akt_Periode","V_ST_CR_ID_CR_mit_Akt_Periode_alleGuePer","V_ST_CR_ID_CR_mit_Akt_Periode_EK","V_ST_CR_mit_Anzeige_GueltigPerioden","V_ST_CR_mit_Anzeige_GueltigPerioden_Eingabekonten","V_ST_CR_mit_Anzeige_GueltigPerioden_Eingabekonten_StatusPer","V_ST_CR_mit_Anzeige_GueltigPerioden_User","V_ST_CR_mit_Anzeige_GueltigPerioden_User_EingKont","V_ST_CR_Nach_Status_1","V_ST_CR_Nach_Status_2","V_ST_CR_Nach_Status_3","V_ST_CR_ohne_Massnahme","V_ST_CR_Riskmap","V_ST_CR_Riskmap_Nach_Status","V_ST_CR_Sprache_Art_ID_Kat123","V_ST_CR_SubstInfo","V_ST_CR_Wizard","V_ST_CRPolitik_Bez","V_ST_CRStrategie","V_ST_DSBetroffenengruppe","V_ST_DSDatenkategorie","V_ST_DSMassnahme","V_ST_DSSchutzbedarf","V_ST_DSSchutzziel","V_ST_DSSchutzzielklasse","V_ST_Fragenkatalog_GesamteStammdaten","V_ST_GlobWS","V_ST_HilfeText_mit_Bez_Menu","V_ST_IKS_CheckStatus","V_ST_IKSKontrolle_Aktuell_mit_Bez","V_ST_IKSKontrolle_Aktuell_und_Deaktiviert_mit_Bez","V_ST_IKSKontrolle_ID_Aktueller_DS","V_ST_IKSKontrolle_und_ID_AktuellerDS","V_ST_IKSKontrollfrequenz_ID","V_ST_Indikator_Alle","V_ST_Indikator_ALLE_ind_und_Glob","V_ST_Indikator_ID_Aktueller_DS","V_ST_Indikator_ID_Alle_GroupCurr","V_ST_Indikator_ID_GroupCurr","V_ST_Indikator_Max_ID_ALLE","V_ST_Indikator_mit_ID_AktuellerDS","V_ST_Katalog","V_ST_Katalog_Schadenspotential","V_ST_Konto_aktive_Aktueller_DS","V_ST_Konto_Aktueller_DS","V_ST_Konto_Neu_Zuordenbare","V_ST_Konto_Neu_Zuordenbare_1","V_ST_Kursbasis_ID_1","V_ST_Kursbasis_ID_2","V_ST_Kursbasis_Kennzahlen_fuer_Simulation","V_ST_Kursbasis_mit_ID","V_ST_Land","V_ST_LegalEinheit_Infos","V_ST_LegalEinheit_Neu_Zuordenbare","V_ST_LegalEinheit_Neu_Zuordenbare_1","V_ST_Legaleinheit_ohne_Wirkung","V_ST_LegalEinheit_untersteEbene","V_ST_Masken","V_ST_Masken_DokumentationJeMenu","V_ST_Massnahme_Bez_AktuellerDS","V_ST_Massnahme_CR_Zugeordnet","V_ST_Massnahme_mit_ID_AktuellerDS","V_ST_Massnahme_MnVA_ungueltig","V_ST_Massnahme_Wizard","V_ST_Mitteilung","V_ST_ModulMeldung_offen","V_ST_OrgEinheit_Infos","V_ST_OrgEinheit_Neu_Zuordenbare","V_ST_OrgEinheit_Neu_Zuordenbare_1","V_ST_OrgEinheit_ohne_Wirkung","V_ST_OrgEinheit_ohne_Wirkung_EK","V_ST_OrgEinheit_untersteEbene","V_ST_OrgEinheit_Wirkung_EK_Wert_Einheit_Finanz","V_ST_OrgEinheit_Wirkung_Wert_Einheit_Finanz","V_ST_Parameter_Customizing","V_ST_Prozess_aktive_Aktueller_DS","V_ST_Prozess_Aktueller_DS","V_ST_Prozess_Katalog_Schadenspotential","V_ST_Prozess_Neu_Zuordenbare","V_ST_Prozess_Neu_Zuordenbare_1","V_ST_Prozess_untersteEbene","V_ST_QualEW","V_ST_Schadenspotenial_mit_WirkWahrschRep_Bez","V_ST_Schadenspotential_Evaluation_mit_Bez","V_ST_Sprache_aktive_Sprachen","V_ST_StammdatenTab_AktivVorhanden","V_ST_Status","V_ST_Status_mit_Summenknoten","V_ST_Status_Periode_mit_Uhrzeit","V_ST_Szenario","V_ST_Szenario_aktiv","V_ST_Treiber_verwendet","V_ST_User_aktive","V_ST_User_Aktive_RM","V_ST_User_Aktive_RO","V_ST_User_AlternativerLogin","V_ST_User_IKS_Neu_Zuordenbare","V_ST_User_IKS_Neu_Zuordenbare_1","V_ST_User_Inaktiv_akt_Monat_IKS","V_ST_User_Inaktiv_akt_Periode_RM","V_ST_User_Neu_Zuordenbare","V_ST_User_Neu_Zuordenbare_1","V_ST_User_Suche","V_ST_Verteilungsfkt_Bin_aktiv","V_ST_Wahrscheinlichkeit_Wizard","V_ST_Wirksamkeit_ID","V_ST_Wirkung_EK_Wizard","V_ST_Wirkung_EK_Wizard_0","V_ST_Wirkung_EK_Wizard_1","V_ST_Wirkung_EK_Wizard_2","V_ST_Wirkung_Wizard","V_ST_Wirkung_Wizard_0","V_ST_Wirkung_Wizard_1","V_ST_Wirkung_Wizard_2","V_ST_WirkWahrRep_Bez","V_STR_Checkliste_Frage_Katalog","V_STR_Compliance_aktiv","V_STR_CR_Schadenspotenial_Quelle_aktive_CR","V_STR_CR_Schadenspotential_Quelle_aktive_CR","V_STR_CR_Substitution_AktuellerDS","V_STR_CR_Substitution_Auswertung","V_STR_CR_Substitution_Wizard","V_STR_CRKategorie_Baum","V_STR_CRKategorie_Baum_alle","V_STR_CRKategorie_Baum_Berechtigung","V_STR_CRKategorie_Baum_IndLegal","V_STR_CRKategorie_Baum_IndOrg","V_STR_CRKategorie_Baum_IndProzess","V_STR_CRKategorie_Pflege","V_STR_DSDatenkategorie_Schutzziel_Klasse","V_STR_DSFA_Verfahren","V_STR_DSVerfahren_Asset","V_STR_DSVerfahren_Geschaeftsp_Zugriff","V_STR_DSVerfahren_LegalEinheit","V_STR_DSVerfahren_OrgEinheit","V_STR_DSVerfahren_Prozess","V_STR_DSVerfahren_Rechtsgrundlage","V_STR_Fragenkatalog_Evaluation_mit_Bez","V_STR_Fragenkatalog_Schadenspotential_Typ","V_STR_IKS_CR_mit_Bez","V_STR_IKS_Final_ab_User","V_STR_IKS_Massnahme_Aktueller_DS","V_STR_IKSM_Vertretung_einfach_ID_CR","V_STR_IKSM_Vertretung_mehrstufig_1","V_STR_Katalog_Evaluation_Durchführung","V_STR_Konto_Akt","V_STR_Konto_Hierarchie_aktiv","V_STR_Konto_Hierarchie_auto","V_STR_Konto_Konsistenzprüfung","V_STR_Konto_Korrelation","V_STR_Konto_Top_Knoten","V_STR_Kursbasis_Korrelation_Union_1_2","V_STR_LegalEinheit_Akt","V_STR_LegalEinheit_Childes_Unterste_Ebene","V_STR_LegalEinheit_Hierarchie_aktiv","V_STR_LegalEinheit_Hierarchie_auto","V_STR_LegalEinheit_IKS_relevanter_Prozess_inkl_Child","V_STR_LegalEinheit_Konsistenzprüfung","V_STR_LegalEinheit_mit_User_RW","V_STR_LegalEinheit_relevante_Assets_inkl_Childs","V_STR_LegalEinheit_Top_Knoten","V_STR_LegalEinheit_Wirkung_Wert_AutoBefuellen","V_STR_Massnahme_Gruppe_Klasse_CR_Aktueller_DS","V_STR_OrgEinheit_Akt","V_STR_OrgEinheit_Childes_Unterste_Ebene","V_STR_OrgEinheit_Hierarchie_aktiv","V_STR_OrgEinheit_Hierarchie_auto","V_STR_OrgEinheit_IKS_relevanter_Prozess_inkl_Child","V_STR_OrgEinheit_Konsistenzprüfung","V_STR_OrgEinheit_mit_User_RW","V_STR_OrgEinheit_Top_Knoten","V_STR_OrgEinheit_Tornado_Korrektur","V_STR_OrgEinheit_TreiberNo","V_STR_OrgEinheit_Wirkung_Wert","V_STR_OrgEinheit_Wirkung_Wert_Alle_EK","V_STR_OrgEinheit_Wirkung_Wert_AutoBefuellen","V_STR_OrgEinheit_Wirkung_Wert_AutoBefuellen_Cluster","V_STR_OrgEinheit_Wirkung_Wert_EK","V_STR_OrgEinheit_Wirkung_Wert_OberUntergrenze","V_STR_OrgEinheit_Wirkung_Wert_Unvollstaendig","V_STR_OrgLegal_Dokumentation_Bez","V_STR_OrgLegal_Dokumentation_LegalEinheit","V_STR_OrgLegal_Dokumentation_OrgEinheit","V_STR_OrgLegal_PeriodenKommentare","V_STR_Prozess_Akt","V_STR_Prozess_Childes_Unterste_Ebene","V_STR_Prozess_Hierarchie_aktiv","V_STR_Prozess_Hierarchie_auto","V_STR_Prozess_IKSKontrolle_mit_CR","V_STR_Prozess_IKSKontrolle_mit_Schaden","V_STR_Prozess_IKSKontrolle_mit_Schaden_mit_OrgEinheit","V_STR_Prozess_IKSKontrolle_mit_Schaden_ohne_WirkWS","V_STR_Prozess_IKSKontrolle_mit_Schaden_ohne_WirkWS_mit_OrgEinheit","V_STR_Prozess_Konsistenzprüfung","V_STR_Prozess_mit_User_RW","V_STR_Prozess_Top_Knoten","V_STR_RM_Vertretung_einfach_ID_CR","V_STR_RM_Vertretung_mehrstufig_1","V_STR_Schadenspotential_IKSKontrolle_mit_Bez","V_STR_Selection_Anz_CR_nach_Status","V_STR_Status_erlaubt_Kombi","V_STR_StdProzess","V_STR_StrukturPruefung_Child_existiert_nicht","V_STR_StrukturPruefung_Deaktivert","V_STR_StrukturPruefung_IKS_Child_existiert_nicht","V_STR_StrukturPruefung_IKS_Deaktivert","V_STR_StrukturPruefung_IKS_DoppelteZuordnung","V_STR_StrukturPruefung_IKS_Parent_existiert_nicht","V_STR_StrukturPruefung_IKS_Parent_kein_Child","V_STR_StrukturPruefung_IKS_Parent_nicht_RM","V_STR_StrukturPruefung_Parent_existiert_nicht","V_STR_StrukturPruefung_Parent_nicht_RM","V_STR_TreiberNo_WahrWirk_Farbe","V_STR_User_IKS_IKSM_Hierarchie_auto_mit_BezOrgLegalProz","V_STR_User_IKS_IKSM_Umsetzung_mit_Bez","V_STR_User_IKS_IKSM_Umsetzung_mit_Bez_NEU","V_STR_User_IKS_IKSM_Umsetzung_mit_Bez_OLD","V_STR_User_Kat123","V_STR_User_Kat123_AlleInklLevel","V_STR_User_Kat123_AlleInklLevel_Additiv","V_STR_User_Kat123_Levelberechtigung","V_STR_User_Kat123_Levelberechtigung_Additiv","V_STR_User_Kategorieberechtigung_Total","V_STR_User_Kategorieberechtigung_Total_1","V_STR_User_MenuFavorit_mit_Menu","V_STR_User_RO_RM_aktiv","V_STR_User_RO_RM_Hierarchie_auto","V_STR_User_Vertretung","V_STR_User_Vertretung_Legal","V_STR_User_Vertretung_LegalAbhaengig","V_STR_User_Vertretung_LegalUnabhaengig","V_STR_User_Vertretung_OrgEinheitAbhaengig","V_STR_User_Vertretung_OrgEinheitUnabhaengig","V_STR_User_Vertretung_RO1_ID_CR","V_STR_User_Vertretung_RO2_ID_CR","V_Subst_BEW_CR_Brutto_ermitteln","V_Subst_BEW_CR_Netto_ermitteln","V_Subst_BEW_CR_Ziel_ermitteln","V_SYS_CR-Titel-Korrektur","V_SYS_Dokument_Datentyp_aendern","V_SYS_Fehlende_Sprachpflege","V_SYS_Fehlende_Sprachpflege_1","V_SYS_Fehlende_Stammdatenmasken","V_SYS_Fehlende_Stammdatenmasken_1","V_SYS_FehlendeProzeduren_in_ST_Prozedur","V_SYS_Fragen_Export","V_SYS_GUITexte_pflegen","V_SYS_IKS_Check_Kontrolle_nicht_am_Prozess","V_SYS_IKS_Update_Umsetzung_alt_neu","V_SYS_IKS_Update_Umsetzung_alt_neu_1","V_Sys_MaskenDokuPflege","V_SYS_Mn-Titel-Korrektur","V_SYS_Object_Info","V_SYS_SessionID_User_lastDay","V_Sys_ST_Masken_FalschePflege","V_SYS_ST_Parameter_Pfade","V_SYS_STR_Schadenspot_Katalog_InitBefuell_Update_372","V_SYS_Update_Wahrscheinlichkeit_Br_all_over","V_SYS_Update_Wahrscheinlichkeit_Br_pro_StatusPeriode","V_SYS_Update_Wahrscheinlichkeit_Ne_all_over","V_SYS_Update_Wahrscheinlichkeit_Ne_pro_StatusPeriode","V_SYS_Update_Wahrscheinlichkeit_Zi_all_over","V_SYS_Update_Wahrscheinlichkeit_Zi_pro_StatusPeriode","V_SYS_Update_Wert_Wirkung_Br_R_Nach_Vorschlag_Qual","V_SYS_Update_Wert_Wirkung_Ne_R_Nach_Vorschlag_Qual","V_SYS_Update_Wirkung_Br_all_over","V_SYS_Update_Wirkung_Br_pro_StatusPeriode","V_SYS_Update_Wirkung_Ne_all_over","V_SYS_Update_Wirkung_Ne_pro_StatusPeriode","V_SYS_Ziel_Zaehler_Reorg","V_Temp_Eval-Kataloge","V_Update_Temp_ST_User_ADImport","V_UpdateView_Auswirkung_StatusEintrag","V_UpdateView_BEW_CR_Kommentar_StatusEintrag","V_UpdateView_BEW_CR_StatusEintrag","V_UpdateView_Brutto_StatusEintrag","V_UpdateView_Compliance_StatusEintrag","V_UpdateView_Datto_StatusEintrag","V_UpdateView_GlobWS_StatusEintrag","V_UpdateView_Konto_StatusEintrag","V_UpdateView_Korrelation_StatusEintrag","V_UpdateView_Massnahme_StatusEintrag","V_UpdateView_MassnahmeWirkung_StatusEintrag","V_UpdateView_MassnWirksamkeit_StatusEintrag","V_UpdateView_Netto_StatusEintrag","V_UpdateView_Netto_TypBewertung","V_UpdateView_ST_CR_StatusEintrag","V_UpdateView_Verteilung_StatusEintrag","V_UpdateView_Ziel_StatusEintrag","V_UpdateView_Ziel_TypBewertung","V_User_Vertretung","V_User_Vertretung_Auswertung","V_User_Vertretung_Auswertung_Legal","V_User_Vertretung_Legal","V_xxx_QuantilVgl","V_Zufallszahl","worldcitiespop","ZH_V_CIM_RIMIS_ID_Wirkung_ermitteln_je_CR_Org_aus_SchadErw","ZH_Warten"],
+          "columns": [
+            {
+              "name": "Bin_Aktiv",
+              "type": "int"
+            },
+            {
+              "name": "Eintrag_Datum",
+              "type": "datetime"
+            },
+            {
+              "name": "Eintrag_ID_User",
+              "type": "int"
+            },
+            {
+              "name": "ID_Compliance_L1",
+              "type": "int"
+            },
+            {
+              "name": "ID_Compliance_L2",
+              "type": "int"
+            },
+            {
+              "name": "ID_Compliance_L3",
+              "type": "int"
+            },
+            {
+              "name": "ID_Compliance_L4",
+              "type": "int"
+            },
+            {
+              "name": "ID_Compliance_L5",
+              "type": "int"
+            },
+            {
+              "name": "ID_Compliance_L6",
+              "type": "int"
+            },
+            {
+              "name": "ID_Compliance123456",
+              "type": "int"
+            }
+          ],
+          "schemas": ["dbo"],
+          "endpoint": "",
+          "password": "",
+          "systemId": "",
+          "username": "dbuser",
+          "reference": "",
+          "refreshToken": "",
+          "routerString": "",
+          "systemNumber": "",
+          "authentication": "Basic",
+          "dbObjectOptions": [],
+          "connectionStatus": "DISCONNECTED",
+          "selectedDBEntities": {
+            "cube": null,
+            "rows": null,
+            "table": "STR_Compliance",
+            "schema": "dbo",
+            "columns": [
+              {
+                "name": "ID_Compliance_L3",
+                "type": "int",
+                "levels": null,
+                "sortBy": null
+              },
+              {
+                "name": "ID_Compliance_L6",
+                "type": "int",
+                "levels": null,
+                "sortBy": null
+              }
+            ],
+            "topRows": 100,
+            "dbFilters": [],
+            "noAggregate": false,
+            "hierarchyNumLevels": null,
+            "hasTopRowsInEditMode": true
+          }
+        }
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Page3"
+      },
+      "actions": [
+        {
+          "code": "GETDATA()",
+          "type": "CONTENT"
+        }
+      ]
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "showSeconds": false,
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 343,
+        "y": 66,
+        "order": 21,
+        "width": 353,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "cell12",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [null]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Page3"
+      },
+      "actions": [
+        {
+          "code": "11166",
+          "type": "CONTENT"
+        }
+      ]
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "showSeconds": false,
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 421,
+        "y": 561,
+        "order": 12,
+        "width": 90,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "cell6",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          ["!SYNTAX"]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Page3"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "showSeconds": false,
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 709,
+        "y": 77,
+        "order": 20,
+        "width": 90,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "cell11",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [null]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Page3"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "showSeconds": false,
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 583,
+        "y": 561,
+        "order": 14,
+        "width": 90,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "cell7",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          ["!SYNTAX"]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Page3"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "showSeconds": false,
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 760,
+        "y": 514,
+        "order": 19,
+        "width": 260,
+        "height": 74
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "cell10",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          ["!SYNTAX"]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Page3"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "showSeconds": false,
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 760,
+        "y": 363,
+        "order": 17,
+        "width": 260,
+        "height": 100
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "cell9",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          ["!SYNTAX"]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Page3"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "showSeconds": false,
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 421,
+        "y": 363,
+        "order": 3,
+        "width": 90,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "cell2",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [null]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Page3"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "hasTabOrder": false,
+        "showSeconds": false,
+        "tabOrderName": "",
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 215,
+        "y": 225,
+        "order": 24,
+        "width": 804,
+        "height": 159
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "cell13",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "auto",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          ["NED-2552  Unexpected toast in QR code widget if text is too long.\nNED-2893  Blurred toast message is shown after trying to upload 5+mb file to an image widget.\nNED-2900  With the following app zip file, it is possible to drag a parent page as a child of itself.\nNED-2340  It's possible to execute QUESTION function with 65+ characters in third, fourth or fifth parameter\nNED-2882  Busy indicator after manual formula execution\nNED-2887  Connecting to a ODBC datasource returns all tables and columns of the database"]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Page3"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "showSeconds": false,
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 421,
+        "y": 162,
+        "order": 4,
+        "width": 90,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "cell3",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [null]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Page3"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "hasTabOrder": false,
+        "showSeconds": false,
+        "tabOrderName": "",
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 216,
+        "y": 438,
+        "order": 25,
+        "width": 802,
+        "height": 190
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "cell14",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "auto",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          ["Number formats as cell styles\nBusy indicator after manual formula execution\nRename the \"Enabled\" property to \"Selectable\" for cell widgets\nFix: It's possible to execute QUESTION function with 65+ characters in third, fourth or fifth parameter\nFix: Blurred toast message is shown after trying to upload 5+mb file to an image widget\nFix: Connecting to a ODBC datasource returns all tables and columns of the database\nFix: Using UPLOAD with a csv file in Firefox returns an \"Unsupported file type\" error\nFix: Unexpected toast in QR code widget if text is too long\n"]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Page3"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "showSeconds": false,
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 257,
+        "y": 561,
+        "order": 10,
+        "width": 90,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "cell5",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [null]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Page3"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "showSeconds": false,
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 44,
+        "y": 197,
+        "order": 15,
+        "width": 136,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "cell8",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          ["Connection"]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Page3"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "showSeconds": false,
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 44,
+        "y": 264,
+        "order": 5,
+        "width": 150,
+        "height": 70
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "table1",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "hasGrid": true,
+        "fontSize": "15",
+        "gridSize": "1",
+        "wordWrap": false,
+        "fontColor": "#222222",
+        "gridColor": "#CCCCCC",
+        "hasBorder": true,
+        "hasShadow": true,
+        "rowHeight": [30],
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "columnWidth": [70],
+        "showTooltip": false,
+        "borderRadius": "6",
+        "gridPosition": "both",
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "isAdjustToContent": true,
+        "verticalAlignment": "center"
+      },
+      "type": "TABLE",
+      "rawData": {
+        "value": [
+          [null]
+        ],
+        "viewType": "TABLE",
+        "dataSourceOptions": {
+          "port": "",
+          "type": "SSAS",
+          "dbName": "adventureWorks",
+          "driver": "NotSet",
+          "server": "asazure://westeurope.asazure.windows.net/nedyxasdemo",
+          "endpoint": "",
+          "password": "",
+          "systemId": "",
+          "username": "",
+          "reference": "",
+          "refreshToken": "",
+          "routerString": "",
+          "systemNumber": "",
+          "authentication": "OAuth2",
+          "dbObjectOptions": [],
+          "connectionStatus": "CONNECTION_ERROR",
+          "selectedDBEntities": {
+            "cube": "",
+            "table": "",
+            "columns": [],
+            "topRows": 100,
+            "dbFilters": [],
+            "noAggregate": false
+          }
+        }
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Page3"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "showSeconds": false,
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 257,
+        "y": 363,
+        "order": 2,
+        "width": 90,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "cell1",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [null]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Page3"
+      },
+      "actions": []
+    },
+    {
+      "format": {
+        "dateType": "DATE",
+        "showSeconds": false,
+        "showLocalTime": true,
+        "fractionDigits": -1,
+        "showMilliseconds": false,
+        "showGroupedNumber": false,
+        "showNumberInPercent": false
+      },
+      "geometry": {
+        "x": 583,
+        "y": 367,
+        "order": 8,
+        "width": 90,
+        "height": 35
+      },
+      "enabled": true,
+      "editable": {
+        "value": [
+          [true]
+        ]
+      },
+      "title": "cell4",
+      "cellStyles": {
+        "value": [
+          [""]
+        ],
+        "stylesMap": []
+      },
+      "styles": {
+        "fontSize": "15",
+        "wordWrap": true,
+        "bgPattern": "DIAGONAL_FORWARD",
+        "fontColor": "#222222",
+        "hasBorder": false,
+        "hasShadow": true,
+        "background": "#ffffff",
+        "borderSize": "1",
+        "fontFamily": "Nunito",
+        "fontItalic": false,
+        "fontWeight": false,
+        "borderColor": "#d4d4d4",
+        "showTooltip": false,
+        "borderRadius": "6",
+        "hasBgPattern": false,
+        "fontTextAlign": "left",
+        "fontUnderline": false,
+        "hasBackground": true,
+        "borderPosition": ["top","right","bottom","left"],
+        "verticalAlignment": "center"
+      },
+      "type": "CELL",
+      "rawData": {
+        "value": [
+          [3]
+        ]
+      },
+      "visible": true,
+      "titleInfo": {
+        "pageTitle": "Page3"
+      },
+      "actions": []
+    }
+  ],
+  "parentId": {
+    "childPageTitle": "Page3",
+    "parentTitle": "Page1",
+    "appTitle": "les"
+  }
+}
